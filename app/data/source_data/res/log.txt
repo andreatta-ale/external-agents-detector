@@ -1,0 +1,2096 @@
+2024-03-23 13:54:24.430608 - C:/Users/aless/OneDrive/Documentos/UCS/Mestrado/Fase2/Notebooks/Analix/external-agents-detector/app/data/source_data/res2024-03-23 13:54:24.477933 - Address list - OK 
+2024-03-23 13:54:24.662354 - Combined dataset - OK 
+2024-03-23 13:54:24.683910 - Combined and address datasets - EXPORTED 
+
+2024-03-23 13:54:24.756566 - LMFIT result report C-1-0 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 57
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.0762e-06
+    reduced chi-square = 5.3809e-08
+    Akaike info crit   = -430.004968
+    Bayesian info crit = -422.456389
+    R-squared          = 0.99987217
+[[Variables]]
+    amplitude: -6.5548e-04 +/- 1.1665e-05 (1.78%) (init = 0.000562349)
+    center:     0.43904624 +/- 6.0215e-06 (0.00%) (init = 0.4389636)
+    sigma:      0.00229330 +/- 3.7278e-05 (1.63%) (init = 0.0025)
+    sigma_r:    0.00216150 +/- 2.9597e-05 (1.37%) (init = 0.0025)
+    fwhm:       0.00445480 +/- 4.0914e-05 (0.92%) == 'sigma+sigma_r'
+    height:    -0.09367237 +/- 8.2562e-04 (0.88%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -4.08629682 +/- 0.23477583 (5.75%) (init = 0)
+    intercept:  2.36979826 +/- 0.10330544 (4.36%) (init = 0.4819135)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8389
+    C(sigma, slope)         = -0.8350
+    C(amplitude, sigma)     = -0.7051
+    C(sigma_r, slope)       = +0.6686
+    C(sigma_r, intercept)   = -0.6631
+    C(center, sigma_r)      = -0.5404
+    C(amplitude, sigma_r)   = -0.4793
+    C(center, sigma)        = +0.4013
+    C(center, slope)        = -0.3272
+    C(center, intercept)    = +0.3261
+    C(amplitude, intercept) = -0.2817
+    C(amplitude, slope)     = +0.2739
+    C(sigma, sigma_r)       = -0.26812024-03-23 13:54:28.579567 - Results C-1-0 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.4391187126829738
+Optimized frequency standard deviation (fmin)  1.911281649406981e-05
+Optimized frequency standard error (fmin)      6.044003262209469e-07
+Optimized frequency mean with uncertainties    439119+/-19
+Accuracy of estimated frequency mean / SMC     0.9999315899403557
+---------------------------------------------  ---------------------
+
+2024-03-23 13:54:29.181576 - LMFIT result report C-1-5 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 57
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.1045e-06
+    reduced chi-square = 5.5225e-08
+    Akaike info crit   = -429.329741
+    Bayesian info crit = -421.781162
+    R-squared          = 0.99986509
+[[Variables]]
+    amplitude: -6.3297e-04 +/- 1.1302e-05 (1.79%) (init = 0.0005546912)
+    center:     0.43900386 +/- 6.1783e-06 (0.00%) (init = 0.4389636)
+    sigma:      0.00222350 +/- 3.6799e-05 (1.66%) (init = 0.0025)
+    sigma_r:    0.00216616 +/- 2.9776e-05 (1.37%) (init = 0.0025)
+    fwhm:       0.00438966 +/- 4.0547e-05 (0.92%) == 'sigma+sigma_r'
+    height:    -0.09179734 +/- 8.1081e-04 (0.88%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.94616438 +/- 0.23217211 (5.88%) (init = 0)
+    intercept:  2.30646523 +/- 0.10217323 (4.43%) (init = 0.4821969)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8410
+    C(sigma, slope)         = -0.8371
+    C(amplitude, sigma)     = -0.7074
+    C(sigma_r, slope)       = +0.6665
+    C(sigma_r, intercept)   = -0.6609
+    C(center, sigma_r)      = -0.5520
+    C(amplitude, sigma_r)   = -0.4721
+    C(center, sigma)        = +0.4267
+    C(center, slope)        = -0.3511
+    C(center, intercept)    = +0.3500
+    C(amplitude, intercept) = -0.2923
+    C(amplitude, slope)     = +0.2846
+    C(sigma, sigma_r)       = -0.27232024-03-23 13:54:32.232563 - Results C-1-5 
+---------------------------------------------  ----------------------------------
+Optimized frequency mean (fmin)                0.4391142187500001
+Optimized frequency standard deviation (fmin)  1.1102230246251565e-16
+Optimized frequency standard error (fmin)      3.510833468576701e-18
+Optimized frequency mean with uncertainties    439114.21875000012+/-0.00000000011
+Accuracy of estimated frequency mean / SMC     1.0000204238617891
+---------------------------------------------  ----------------------------------
+
+2024-03-23 13:54:32.705564 - LMFIT result report C-1-10 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 50
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.3471e-06
+    reduced chi-square = 6.7355e-08
+    Akaike info crit   = -424.167054
+    Bayesian info crit = -416.618475
+    R-squared          = 0.99983315
+[[Variables]]
+    amplitude: -6.3669e-04 +/- 1.2865e-05 (2.02%) (init = 0.0005471034)
+    center:     0.43904097 +/- 6.8769e-06 (0.00%) (init = 0.4389636)
+    sigma:      0.00228377 +/- 4.2402e-05 (1.86%) (init = 0.0025)
+    sigma_r:    0.00214615 +/- 3.3191e-05 (1.55%) (init = 0.0025)
+    fwhm:       0.00442993 +/- 4.6321e-05 (1.05%) == 'sigma+sigma_r'
+    height:    -0.09149793 +/- 9.1336e-04 (1.00%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.98584047 +/- 0.26048592 (6.54%) (init = 0)
+    intercept:  2.32417388 +/- 0.11463291 (4.93%) (init = 0.4825728)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8430
+    C(sigma, slope)         = -0.8392
+    C(amplitude, sigma)     = -0.7116
+    C(sigma_r, slope)       = +0.6618
+    C(sigma_r, intercept)   = -0.6562
+    C(center, sigma_r)      = -0.5501
+    C(amplitude, sigma_r)   = -0.4713
+    C(center, sigma)        = +0.4046
+    C(center, slope)        = -0.3341
+    C(center, intercept)    = +0.3329
+    C(amplitude, intercept) = -0.2991
+    C(amplitude, slope)     = +0.2914
+    C(sigma, sigma_r)       = -0.26792024-03-23 13:54:36.483564 - Results C-1-10 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.43911554663312696
+Optimized frequency standard deviation (fmin)  1.0589815904137346e-05
+Optimized frequency standard error (fmin)      3.348793825894934e-07
+Optimized frequency mean with uncertainties    439116+/-11
+Accuracy of estimated frequency mean / SMC     0.9999403209964861
+---------------------------------------------  ----------------------
+
+2024-03-23 13:54:36.932565 - LMFIT result report C-1-15 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 94
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.5013e-06
+    reduced chi-square = 7.5066e-08
+    Akaike info crit   = -421.348875
+    Bayesian info crit = -413.800296
+    R-squared          = 0.99981524
+[[Variables]]
+    amplitude: -6.6656e-04 +/- 1.4569e-05 (2.19%) (init = 0.0005546226)
+    center:     0.43903344 +/- 7.1950e-06 (0.00%) (init = 0.43878)
+    sigma:      0.00231163 +/- 4.5548e-05 (1.97%) (init = 0.0025)
+    sigma_r:    0.00222429 +/- 3.7195e-05 (1.67%) (init = 0.0025)
+    fwhm:       0.00453592 +/- 5.0591e-05 (1.12%) == 'sigma+sigma_r'
+    height:    -0.09355201 +/- 0.00102309 (1.09%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.99770508 +/- 0.28646903 (7.17%) (init = 0)
+    intercept:  2.33163035 +/- 0.12604040 (5.41%) (init = 0.4826252)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8339
+    C(sigma, slope)         = -0.8298
+    C(amplitude, sigma)     = -0.6991
+    C(sigma_r, slope)       = +0.6758
+    C(sigma_r, intercept)   = -0.6702
+    C(center, sigma_r)      = -0.5114
+    C(amplitude, sigma_r)   = -0.4900
+    C(center, sigma)        = +0.3801
+    C(center, slope)        = -0.2962
+    C(center, intercept)    = +0.2951
+    C(sigma, sigma_r)       = -0.2652
+    C(amplitude, intercept) = -0.2624
+    C(amplitude, slope)     = +0.25442024-03-23 13:54:39.995564 - Results C-1-15 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4391155949197861
+Optimized frequency standard deviation (fmin)  1.0777556364191742e-05
+Optimized frequency standard error (fmin)      3.408162572168909e-07
+Optimized frequency mean with uncertainties    439116+/-11
+Accuracy of estimated frequency mean / SMC     0.9999449854963193
+---------------------------------------------  ----------------------
+
+2024-03-23 13:54:40.449562 - LMFIT result report C-1-20 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 138
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.1410e-06
+    reduced chi-square = 5.7051e-08
+    Akaike info crit   = -428.483977
+    Bayesian info crit = -420.935397
+    R-squared          = 0.99987786
+[[Variables]]
+    amplitude: -6.2340e-04 +/- 1.1138e-05 (1.79%) (init = 0.0005991456)
+    center:     0.43902379 +/- 6.3412e-06 (0.00%) (init = 0.43826)
+    sigma:      0.00224340 +/- 3.2593e-05 (1.45%) (init = 0.0025)
+    sigma_r:    0.00213329 +/- 3.4928e-05 (1.64%) (init = 0.0025)
+    fwhm:       0.00437669 +/- 4.0456e-05 (0.92%) == 'sigma+sigma_r'
+    height:    -0.09067727 +/- 8.0344e-04 (0.89%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -4.25421348 +/- 0.23227080 (5.46%) (init = 0)
+    intercept:  2.44113754 +/- 0.10180909 (4.17%) (init = 0.4823229)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma_r, slope)     = +0.8053
+    C(sigma_r, intercept) = -0.8009
+    C(sigma, intercept)   = +0.7203
+    C(sigma, slope)       = -0.7151
+    C(amplitude, sigma_r) = -0.6560
+    C(amplitude, sigma)   = -0.5227
+    C(center, sigma)      = +0.5193
+    C(center, sigma_r)    = -0.4778
+    C(center, intercept)  = +0.3733
+    C(center, slope)      = -0.3728
+    C(sigma, sigma_r)     = -0.28362024-03-23 13:54:47.395563 - Results C-1-20 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.43910665491615863
+Optimized frequency standard deviation (fmin)  3.6820658356848716e-05
+Optimized frequency standard error (fmin)      1.1643714535455484e-06
+Optimized frequency mean with uncertainties    (4.3911+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     0.9999439388341014
+---------------------------------------------  ----------------------
+
+2024-03-23 13:54:47.849563 - LMFIT result report C-1-25 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 71
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 8.0910e-07
+    reduced chi-square = 4.0455e-08
+    Akaike info crit   = -437.421448
+    Bayesian info crit = -429.872869
+    R-squared          = 0.99990153
+[[Variables]]
+    amplitude: -6.3327e-04 +/- 9.5193e-06 (1.50%) (init = 0.0005531976)
+    center:     0.43902050 +/- 5.2940e-06 (0.00%) (init = 0.4389636)
+    sigma:      0.00218999 +/- 2.9929e-05 (1.37%) (init = 0.0025)
+    sigma_r:    0.00220663 +/- 2.7002e-05 (1.22%) (init = 0.0025)
+    fwhm:       0.00439662 +/- 3.4203e-05 (0.78%) == 'sigma+sigma_r'
+    height:    -0.09169551 +/- 6.8218e-04 (0.74%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.51184301 +/- 0.19711719 (5.61%) (init = 0)
+    intercept:  2.11612080 +/- 0.08667011 (4.10%) (init = 0.4826499)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.8118
+    C(sigma, slope)       = -0.8075
+    C(sigma_r, slope)     = +0.7118
+    C(sigma_r, intercept) = -0.7065
+    C(amplitude, sigma)   = -0.6587
+    C(center, sigma_r)    = -0.5248
+    C(amplitude, sigma_r) = -0.5217
+    C(center, sigma)      = +0.4608
+    C(center, slope)      = -0.3645
+    C(center, intercept)  = +0.3639
+    C(sigma, sigma_r)     = -0.28152024-03-23 13:54:48.870565 - Results C-1-25 
+---------------------------------------------  ----------------------------------
+Optimized frequency mean (fmin)                0.4391142187500001
+Optimized frequency standard deviation (fmin)  1.1102230246251565e-16
+Optimized frequency standard error (fmin)      3.510833468576701e-18
+Optimized frequency mean with uncertainties    439114.21875000012+/-0.00000000011
+Accuracy of estimated frequency mean / SMC     0.9999999255885177
+---------------------------------------------  ----------------------------------
+
+2024-03-23 13:54:49.348568 - LMFIT result report C-1-30 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 57
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.4441e-06
+    reduced chi-square = 7.2206e-08
+    Akaike info crit   = -422.358810
+    Bayesian info crit = -414.810231
+    R-squared          = 0.99982405
+[[Variables]]
+    amplitude: -6.5348e-04 +/- 1.3590e-05 (2.08%) (init = 0.0005576473)
+    center:     0.43901296 +/- 7.0248e-06 (0.00%) (init = 0.4389636)
+    sigma:      0.00225822 +/- 4.2881e-05 (1.90%) (init = 0.0025)
+    sigma_r:    0.00220732 +/- 3.5378e-05 (1.60%) (init = 0.0025)
+    fwhm:       0.00446554 +/- 4.7658e-05 (1.07%) == 'sigma+sigma_r'
+    height:    -0.09316178 +/- 9.6511e-04 (1.04%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.88264692 +/- 0.27323156 (7.04%) (init = 0)
+    intercept:  2.28023284 +/- 0.12022180 (5.27%) (init = 0.4822829)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8349
+    C(sigma, slope)         = -0.8309
+    C(amplitude, sigma)     = -0.6990
+    C(sigma_r, slope)       = +0.6757
+    C(sigma_r, intercept)   = -0.6701
+    C(center, sigma_r)      = -0.5284
+    C(amplitude, sigma_r)   = -0.4853
+    C(center, sigma)        = +0.4078
+    C(center, slope)        = -0.3253
+    C(center, intercept)    = +0.3243
+    C(sigma, sigma_r)       = -0.2700
+    C(amplitude, intercept) = -0.2669
+    C(amplitude, slope)     = +0.25902024-03-23 13:54:51.474564 - Results C-1-30 
+---------------------------------------------  ----------------------------------
+Optimized frequency mean (fmin)                0.4391142187500001
+Optimized frequency standard deviation (fmin)  1.1102230246251565e-16
+Optimized frequency standard error (fmin)      3.510833468576701e-18
+Optimized frequency mean with uncertainties    439114.21875000012+/-0.00000000011
+Accuracy of estimated frequency mean / SMC     0.9999987868201977
+---------------------------------------------  ----------------------------------
+
+2024-03-23 13:54:52.040567 - LMFIT result report C-15-0 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 159
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.3535e-06
+    reduced chi-square = 6.7673e-08
+    Akaike info crit   = -424.044351
+    Bayesian info crit = -416.495771
+    R-squared          = 0.99974542
+[[Variables]]
+    amplitude: -5.1885e-04 +/- 1.3947e-05 (2.69%) (init = 0.0004491329)
+    center:     0.43941090 +/- 8.8333e-06 (0.00%) (init = 0.4387333)
+    sigma:      0.00229758 +/- 4.7701e-05 (2.08%) (init = 0.0025)
+    sigma_r:    0.00225823 +/- 5.4514e-05 (2.41%) (init = 0.0025)
+    fwhm:       0.00455582 +/- 6.2050e-05 (1.36%) == 'sigma+sigma_r'
+    height:    -0.07250313 +/- 9.8273e-04 (1.36%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.60193765 +/- 0.27375212 (10.52%) (init = 0)
+    intercept:  1.71631244 +/- 0.12004979 (6.99%) (init = 0.5004004)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma_r, slope)     = +0.8191
+    C(sigma_r, intercept) = -0.8148
+    C(sigma, intercept)   = +0.6980
+    C(sigma, slope)       = -0.6925
+    C(amplitude, sigma_r) = -0.6835
+    C(amplitude, sigma)   = -0.5057
+    C(center, sigma)      = +0.4859
+    C(center, sigma_r)    = -0.3952
+    C(center, intercept)  = +0.2941
+    C(center, slope)      = -0.2933
+    C(sigma, sigma_r)     = -0.26862024-03-23 13:54:53.105570 - Results C-15-0 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4394886112169715
+Optimized frequency standard deviation (fmin)  1.5222586709772523e-05
+Optimized frequency standard error (fmin)      4.813804588228972e-07
+Optimized frequency mean with uncertainties    439489+/-15
+Accuracy of estimated frequency mean / SMC     0.9999677839116982
+---------------------------------------------  ----------------------
+
+2024-03-23 13:54:53.574564 - LMFIT result report C-15-5 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 117
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.2145e-06
+    reduced chi-square = 6.0723e-08
+    Akaike info crit   = -426.861844
+    Bayesian info crit = -419.313265
+    R-squared          = 0.99975723
+[[Variables]]
+    amplitude: -5.2616e-04 +/- 1.3910e-05 (2.64%) (init = 0.0004315321)
+    center:     0.43937390 +/- 8.4944e-06 (0.00%) (init = 0.43898)
+    sigma:      0.00233620 +/- 4.8791e-05 (2.09%) (init = 0.0025)
+    sigma_r:    0.00230573 +/- 5.3129e-05 (2.30%) (init = 0.0025)
+    fwhm:       0.00464193 +/- 6.1805e-05 (1.33%) == 'sigma+sigma_r'
+    height:    -0.07216055 +/- 9.6641e-04 (1.34%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.62460377 +/- 0.26695339 (10.17%) (init = 0)
+    intercept:  1.72671908 +/- 0.11713872 (6.78%) (init = 0.5014881)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma_r, slope)     = +0.7998
+    C(sigma_r, intercept) = -0.7951
+    C(sigma, intercept)   = +0.7229
+    C(sigma, slope)       = -0.7174
+    C(amplitude, sigma_r) = -0.6557
+    C(amplitude, sigma)   = -0.5398
+    C(center, sigma)      = +0.4445
+    C(center, sigma_r)    = -0.3819
+    C(sigma, sigma_r)     = -0.2668
+    C(center, intercept)  = +0.2626
+    C(center, slope)      = -0.26212024-03-23 13:54:54.575564 - Results C-15-5 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.43948417491801206
+Optimized frequency standard deviation (fmin)  1.1768642492477743e-05
+Optimized frequency standard error (fmin)      3.721571524447068e-07
+Optimized frequency mean with uncertainties    439484+/-12
+Accuracy of estimated frequency mean / SMC     1.000030509062966
+---------------------------------------------  ----------------------
+
+2024-03-23 13:54:55.034566 - LMFIT result report C-15-10 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 124
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 2.0922e-06
+    reduced chi-square = 1.0461e-07
+    Akaike info crit   = -412.720543
+    Bayesian info crit = -405.171964
+    R-squared          = 0.99957849
+[[Variables]]
+    amplitude: -5.2661e-04 +/- 1.8195e-05 (3.46%) (init = 0.0004319237)
+    center:     0.43936263 +/- 1.1150e-05 (0.00%) (init = 0.43898)
+    sigma:      0.00240346 +/- 6.9688e-05 (2.90%) (init = 0.0025)
+    sigma_r:    0.00224438 +/- 6.4416e-05 (2.87%) (init = 0.0025)
+    fwhm:       0.00464784 +/- 8.1192e-05 (1.75%) == 'sigma+sigma_r'
+    height:    -0.07213023 +/- 0.00125886 (1.75%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.10004028 +/- 0.34953660 (11.28%) (init = 0)
+    intercept:  1.93556793 +/- 0.15357762 (7.93%) (init = 0.5013921)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7781
+    C(sigma, slope)       = -0.7732
+    C(sigma_r, slope)     = +0.7486
+    C(sigma_r, intercept) = -0.7434
+    C(amplitude, sigma)   = -0.6131
+    C(amplitude, sigma_r) = -0.5838
+    C(center, sigma_r)    = -0.4353
+    C(center, sigma)      = +0.3924
+    C(sigma, sigma_r)     = -0.2688
+    C(center, slope)      = -0.2660
+    C(center, intercept)  = +0.26572024-03-23 13:54:58.936566 - Results C-15-10 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4394784220096982
+Optimized frequency standard deviation (fmin)  2.4087128804973484e-05
+Optimized frequency standard error (fmin)      7.617018931756592e-07
+Optimized frequency mean with uncertainties    439478+/-24
+Accuracy of estimated frequency mean / SMC     1.0000162806616057
+---------------------------------------------  ----------------------
+
+2024-03-23 13:54:59.384564 - LMFIT result report C-15-15 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 43
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.9785e-06
+    reduced chi-square = 9.8923e-08
+    Akaike info crit   = -414.173509
+    Bayesian info crit = -406.624930
+    R-squared          = 0.99955706
+[[Variables]]
+    amplitude: -5.3070e-04 +/- 1.8440e-05 (3.47%) (init = 0.0004009722)
+    center:     0.43935978 +/- 1.0832e-05 (0.00%) (init = 0.4393636)
+    sigma:      0.00231459 +/- 7.2047e-05 (3.11%) (init = 0.0025)
+    sigma_r:    0.00234018 +/- 5.9097e-05 (2.53%) (init = 0.0025)
+    fwhm:       0.00465477 +/- 8.0766e-05 (1.74%) == 'sigma+sigma_r'
+    height:    -0.07258227 +/- 0.00128762 (1.77%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.51882681 +/- 0.34800571 (13.82%) (init = 0)
+    intercept:  1.68064949 +/- 0.15333533 (9.12%) (init = 0.5016548)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8429
+    C(sigma, slope)         = -0.8389
+    C(amplitude, sigma)     = -0.7193
+    C(sigma_r, slope)       = +0.6575
+    C(sigma_r, intercept)   = -0.6516
+    C(amplitude, sigma_r)   = -0.4760
+    C(center, sigma_r)      = -0.4743
+    C(center, sigma)        = +0.3240
+    C(amplitude, intercept) = -0.3066
+    C(amplitude, slope)     = +0.2987
+    C(sigma, sigma_r)       = -0.25372024-03-23 13:55:00.605565 - Results C-15-15 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.43944361646547236
+Optimized frequency standard deviation (fmin)  3.288621568940545e-05
+Optimized frequency standard error (fmin)      1.039953452020857e-06
+Optimized frequency mean with uncertainties    439444+/-33
+Accuracy of estimated frequency mean / SMC     0.9999735375576956
+---------------------------------------------  ---------------------
+
+2024-03-23 13:55:01.142564 - LMFIT result report C-15-20 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 131
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.1476e-06
+    reduced chi-square = 5.7380e-08
+    Akaike info crit   = -428.334291
+    Bayesian info crit = -420.785712
+    R-squared          = 0.99976749
+[[Variables]]
+    amplitude: -5.2401e-04 +/- 1.3338e-05 (2.55%) (init = 0.0004330832)
+    center:     0.43935401 +/- 8.2575e-06 (0.00%) (init = 0.43898)
+    sigma:      0.00235119 +/- 4.9091e-05 (2.09%) (init = 0.0025)
+    sigma_r:    0.00228137 +/- 4.9499e-05 (2.17%) (init = 0.0025)
+    fwhm:       0.00463256 +/- 5.9563e-05 (1.29%) == 'sigma+sigma_r'
+    height:    -0.07201128 +/- 9.2622e-04 (1.29%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.76416597 +/- 0.25747378 (9.31%) (init = 0)
+    intercept:  1.78779612 +/- 0.11306082 (6.32%) (init = 0.5011047)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma_r, slope)     = +0.7742
+    C(sigma_r, intercept) = -0.7692
+    C(sigma, intercept)   = +0.7531
+    C(sigma, slope)       = -0.7479
+    C(amplitude, sigma_r) = -0.6175
+    C(amplitude, sigma)   = -0.5781
+    C(center, sigma)      = +0.4242
+    C(center, sigma_r)    = -0.4133
+    C(center, intercept)  = +0.2724
+    C(center, slope)      = -0.2723
+    C(sigma, sigma_r)     = -0.27002024-03-23 13:55:02.536564 - Results C-15-20 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4394691605456453
+Optimized frequency standard deviation (fmin)  3.39440505242453e-05
+Optimized frequency standard error (fmin)      1.0734051266844769e-06
+Optimized frequency mean with uncertainties    439469+/-34
+Accuracy of estimated frequency mean / SMC     1.0000338945830647
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:03.023568 - LMFIT result report C-15-25 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 67
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.3452e-06
+    reduced chi-square = 6.7259e-08
+    Akaike info crit   = -424.203995
+    Bayesian info crit = -416.655416
+    R-squared          = 0.99972926
+[[Variables]]
+    amplitude: -4.8780e-04 +/- 1.2709e-05 (2.61%) (init = 0.0004388244)
+    center:     0.43934850 +/- 9.0474e-06 (0.00%) (init = 0.43898)
+    sigma:      0.00227830 +/- 5.0808e-05 (2.23%) (init = 0.0025)
+    sigma_r:    0.00218035 +/- 4.9110e-05 (2.25%) (init = 0.0025)
+    fwhm:       0.00445865 +/- 5.9895e-05 (1.34%) == 'sigma+sigma_r'
+    height:    -0.06964987 +/- 9.0098e-04 (1.29%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.95295683 +/- 0.25921477 (8.78%) (init = 0)
+    intercept:  1.86809817 +/- 0.11386691 (6.10%) (init = 0.5004416)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7690
+    C(sigma, slope)       = -0.7642
+    C(sigma_r, slope)     = +0.7615
+    C(sigma_r, intercept) = -0.7565
+    C(amplitude, sigma)   = -0.5929
+    C(amplitude, sigma_r) = -0.5921
+    C(center, sigma_r)    = -0.4859
+    C(center, sigma)      = +0.4688
+    C(center, slope)      = -0.3485
+    C(center, intercept)  = +0.3484
+    C(sigma, sigma_r)     = -0.28172024-03-23 13:55:05.968567 - Results C-15-25 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.43945003335615873
+Optimized frequency standard deviation (fmin)  4.231479094193291e-05
+Optimized frequency standard error (fmin)      1.3381111809036974e-06
+Optimized frequency mean with uncertainties    (4.3945+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     1.0000006107174984
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:06.522566 - LMFIT result report C-15-30 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 87
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 2.1023e-06
+    reduced chi-square = 1.0512e-07
+    Akaike info crit   = -412.594649
+    Bayesian info crit = -405.046069
+    R-squared          = 0.99957635
+[[Variables]]
+    amplitude: -4.9862e-04 +/- 1.6613e-05 (3.33%) (init = 0.0004304942)
+    center:     0.43935540 +/- 1.1293e-05 (0.00%) (init = 0.43898)
+    sigma:      0.00229418 +/- 6.3793e-05 (2.78%) (init = 0.0025)
+    sigma_r:    0.00222387 +/- 6.4345e-05 (2.89%) (init = 0.0025)
+    fwhm:       0.00451805 +/- 7.7006e-05 (1.70%) == 'sigma+sigma_r'
+    height:    -0.07025890 +/- 0.00117021 (1.67%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.85568266 +/- 0.33245197 (11.64%) (init = 0)
+    intercept:  1.82615554 +/- 0.14598458 (7.99%) (init = 0.5012688)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma_r, slope)     = +0.7754
+    C(sigma_r, intercept) = -0.7706
+    C(sigma, intercept)   = +0.7538
+    C(sigma, slope)       = -0.7487
+    C(amplitude, sigma_r) = -0.6144
+    C(amplitude, sigma)   = -0.5740
+    C(center, sigma)      = +0.4627
+    C(center, sigma_r)    = -0.4539
+    C(center, intercept)  = +0.3236
+    C(center, slope)      = -0.3235
+    C(sigma, sigma_r)     = -0.27772024-03-23 13:55:09.140564 - Results C-15-30 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.43946103739754094
+Optimized frequency standard deviation (fmin)  3.889324661914108e-05
+Optimized frequency standard error (fmin)      1.2299124491512918e-06
+Optimized frequency mean with uncertainties    (4.3946+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     1.0000108583523584
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:09.590567 - LMFIT result report C-2-0 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 64
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.8469e-06
+    reduced chi-square = 9.2347e-08
+    Akaike info crit   = -415.962021
+    Bayesian info crit = -408.413442
+    R-squared          = 0.99905713
+[[Variables]]
+    amplitude: -4.9248e-04 +/- 3.5836e-05 (7.28%) (init = 0.0002501571)
+    center:     0.44058973 +/- 1.8080e-05 (0.00%) (init = 0.4407)
+    sigma:      0.00292065 +/- 1.7316e-04 (5.93%) (init = 0.0025)
+    sigma_r:    0.00255198 +/- 9.2620e-05 (3.63%) (init = 0.0025)
+    fwhm:       0.00547263 +/- 1.8878e-04 (3.45%) == 'sigma+sigma_r'
+    height:    -0.05728929 +/- 0.00221131 (3.86%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -1.76859060 +/- 0.49205560 (27.82%) (init = 0)
+    intercept:  1.35892340 +/- 0.21810958 (16.05%) (init = 0.5228119)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.9105
+    C(sigma, slope)         = -0.9073
+    C(amplitude, sigma)     = -0.8545
+    C(amplitude, intercept) = -0.6129
+    C(amplitude, slope)     = +0.6062
+    C(amplitude, center)    = +0.4786
+    C(amplitude, sigma_r)   = -0.4304
+    C(sigma_r, slope)       = +0.4247
+    C(sigma_r, intercept)   = -0.4173
+    C(center, intercept)    = -0.3972
+    C(center, slope)        = +0.3945
+    C(center, sigma)        = -0.3415
+    C(center, sigma_r)      = -0.30322024-03-23 13:55:10.986568 - Results C-2-0 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4406875138742071
+Optimized frequency standard deviation (fmin)  4.218266532679913e-05
+Optimized frequency standard error (fmin)      1.3339330020929618e-06
+Optimized frequency mean with uncertainties    (4.4069+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     0.9999926587959762
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:11.462566 - LMFIT result report C-2-5 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 89
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.8811e-06
+    reduced chi-square = 9.4056e-08
+    Akaike info crit   = -415.485321
+    Bayesian info crit = -407.936742
+    R-squared          = 0.99912993
+[[Variables]]
+    amplitude: -4.4767e-04 +/- 2.5629e-05 (5.72%) (init = 0.0002773038)
+    center:     0.44057922 +/- 1.5571e-05 (0.00%) (init = 0.44018)
+    sigma:      0.00275036 +/- 1.2575e-04 (4.57%) (init = 0.0025)
+    sigma_r:    0.00245183 +/- 1.0238e-04 (4.18%) (init = 0.0025)
+    fwhm:       0.00520219 +/- 1.4366e-04 (2.76%) == 'sigma+sigma_r'
+    height:    -0.05478371 +/- 0.00164855 (3.01%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -1.71818501 +/- 0.41271343 (24.02%) (init = 0)
+    intercept:  1.33398308 +/- 0.18198967 (13.64%) (init = 0.5224553)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.8029
+    C(sigma, slope)       = -0.7977
+    C(sigma_r, slope)     = +0.6998
+    C(sigma_r, intercept) = -0.6936
+    C(amplitude, sigma)   = -0.6747
+    C(amplitude, sigma_r) = -0.56232024-03-23 13:55:12.912568 - Results C-2-5 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.440675094037829
+Optimized frequency standard deviation (fmin)  3.4147720515251754e-05
+Optimized frequency standard error (fmin)      1.079845737310541e-06
+Optimized frequency mean with uncertainties    440675+/-34
+Accuracy of estimated frequency mean / SMC     1.0000030105288527
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:13.419564 - LMFIT result report C-2-10 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 111
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.7271e-06
+    reduced chi-square = 8.6356e-08
+    Akaike info crit   = -417.706074
+    Bayesian info crit = -410.157495
+    R-squared          = 0.99912076
+[[Variables]]
+    amplitude: -5.0065e-04 +/- 4.3613e-05 (8.71%) (init = 0.0002574915)
+    center:     0.44054970 +/- 2.0548e-05 (0.00%) (init = 0.4408364)
+    sigma:      0.00307426 +/- 2.1117e-04 (6.87%) (init = 0.0025)
+    sigma_r:    0.00243741 +/- 7.8823e-05 (3.23%) (init = 0.0025)
+    fwhm:       0.00551168 +/- 2.3207e-04 (4.21%) == 'sigma+sigma_r'
+    height:    -0.05782690 +/- 0.00262096 (4.53%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.60851186 +/- 0.54470910 (20.88%) (init = 0)
+    intercept:  1.72945180 +/- 0.24203722 (14.00%) (init = 0.5222233)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.9541
+    C(sigma, slope)         = -0.9523
+    C(amplitude, sigma)     = -0.9241
+    C(amplitude, intercept) = -0.8076
+    C(amplitude, slope)     = +0.8035
+    C(amplitude, center)    = +0.6798
+    C(center, intercept)    = -0.5718
+    C(center, slope)        = +0.5691
+    C(center, sigma)        = -0.5483
+    C(center, sigma_r)      = -0.4729
+    C(amplitude, sigma_r)   = -0.45712024-03-23 13:55:18.763567 - Results C-2-10 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.4406612506975446
+Optimized frequency standard deviation (fmin)  4.388799585031415e-05
+Optimized frequency standard error (fmin)      1.38786028827011e-06
+Optimized frequency mean with uncertainties    (4.4066+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     0.9999466789413879
+---------------------------------------------  ---------------------
+
+2024-03-23 13:55:19.226565 - LMFIT result report C-2-15 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 87
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 2.2035e-06
+    reduced chi-square = 1.1018e-07
+    Akaike info crit   = -411.372553
+    Bayesian info crit = -403.823974
+    R-squared          = 0.99882613
+[[Variables]]
+    amplitude: -6.0210e-04 +/- 9.9719e-05 (16.56%) (init = 0.0002478684)
+    center:     0.44052943 +/- 4.2944e-05 (0.01%) (init = 0.4407)
+    sigma:      0.00357742 +/- 4.2217e-04 (11.80%) (init = 0.0025)
+    sigma_r:    0.00252363 +/- 1.0906e-04 (4.32%) (init = 0.0025)
+    fwhm:       0.00610106 +/- 4.8837e-04 (8.00%) == 'sigma+sigma_r'
+    height:    -0.06282643 +/- 0.00539705 (8.59%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.41776054 +/- 0.94372139 (27.61%) (init = 0)
+    intercept:  2.09160883 +/- 0.42065138 (20.11%) (init = 0.52316)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.9821
+    C(sigma, slope)         = -0.9813
+    C(amplitude, sigma)     = -0.9713
+    C(amplitude, intercept) = -0.9297
+    C(amplitude, slope)     = +0.9277
+    C(amplitude, center)    = +0.9096
+    C(center, intercept)    = -0.8707
+    C(center, slope)        = +0.8691
+    C(center, sigma)        = -0.8622
+    C(amplitude, sigma_r)   = -0.7086
+    C(center, sigma_r)      = -0.6958
+    C(sigma, sigma_r)       = +0.5255
+    C(sigma_r, intercept)   = +0.4161
+    C(sigma_r, slope)       = -0.41142024-03-23 13:55:26.058566 - Results C-2-15 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.44064435720640566
+Optimized frequency standard deviation (fmin)  5.278338684390515e-05
+Optimized frequency standard error (fmin)      1.669157250445068e-06
+Optimized frequency mean with uncertainties    (4.4064+/-0.0005)e+05
+Accuracy of estimated frequency mean / SMC     0.9998640965713876
+---------------------------------------------  ---------------------
+
+2024-03-23 13:55:26.539564 - LMFIT result report C-2-20 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 98
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.9115e-06
+    reduced chi-square = 9.5574e-08
+    Akaike info crit   = -415.068882
+    Bayesian info crit = -407.520303
+    R-squared          = 0.99895692
+[[Variables]]
+    amplitude: -4.4792e-04 +/- 3.5917e-05 (8.02%) (init = 0.0002401086)
+    center:     0.44052631 +/- 1.9194e-05 (0.00%) (init = 0.4408364)
+    sigma:      0.00285867 +/- 1.8790e-04 (6.57%) (init = 0.0025)
+    sigma_r:    0.00243947 +/- 8.5858e-05 (3.52%) (init = 0.0025)
+    fwhm:       0.00529814 +/- 2.0380e-04 (3.85%) == 'sigma+sigma_r'
+    height:    -0.05382168 +/- 0.00226385 (4.21%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -1.99691052 +/- 0.49949367 (25.01%) (init = 0)
+    intercept:  1.45668326 +/- 0.22167084 (15.22%) (init = 0.523624)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.9366
+    C(sigma, slope)         = -0.9344
+    C(amplitude, sigma)     = -0.8931
+    C(amplitude, intercept) = -0.7295
+    C(amplitude, slope)     = +0.7243
+    C(amplitude, center)    = +0.5290
+    C(center, sigma_r)      = -0.4389
+    C(amplitude, sigma_r)   = -0.4082
+    C(center, intercept)    = -0.3846
+    C(center, slope)        = +0.3818
+    C(center, sigma)        = -0.3471
+    C(sigma_r, slope)       = +0.3016
+    C(sigma_r, intercept)   = -0.29482024-03-23 13:55:29.351565 - Results C-2-20 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4406258077296248
+Optimized frequency standard deviation (fmin)  3.3862007604181894e-05
+Optimized frequency standard error (fmin)      1.070810701751562e-06
+Optimized frequency mean with uncertainties    440626+/-34
+Accuracy of estimated frequency mean / SMC     0.9999740466905362
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:29.958565 - LMFIT result report C-2-25 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 50
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.7973e-06
+    reduced chi-square = 8.9866e-08
+    Akaike info crit   = -416.669969
+    Bayesian info crit = -409.121390
+    R-squared          = 0.99911714
+[[Variables]]
+    amplitude: -4.5310e-04 +/- 2.8887e-05 (6.38%) (init = 0.0002754583)
+    center:     0.44053946 +/- 1.6317e-05 (0.00%) (init = 0.4403636)
+    sigma:      0.00290808 +/- 1.5384e-04 (5.29%) (init = 0.0025)
+    sigma_r:    0.00238991 +/- 9.0679e-05 (3.79%) (init = 0.0025)
+    fwhm:       0.00529799 +/- 1.6576e-04 (3.13%) == 'sigma+sigma_r'
+    height:    -0.05444584 +/- 0.00179422 (3.30%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.21828889 +/- 0.43214107 (19.48%) (init = 0)
+    intercept:  1.55474215 +/- 0.19109899 (12.29%) (init = 0.5228295)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8794
+    C(sigma, slope)         = -0.8756
+    C(amplitude, sigma)     = -0.7987
+    C(sigma_r, slope)       = +0.5426
+    C(sigma_r, intercept)   = -0.5355
+    C(amplitude, intercept) = -0.4669
+    C(amplitude, slope)     = +0.4590
+    C(amplitude, sigma_r)   = -0.4583
+    C(center, sigma_r)      = -0.3194
+    C(amplitude, center)    = +0.31182024-03-23 13:55:33.306569 - Results C-2-25 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.44064666954357967
+Optimized frequency standard deviation (fmin)  4.3120019381645445e-05
+Optimized frequency standard error (fmin)      1.3635747399660492e-06
+Optimized frequency mean with uncertainties    (4.4065+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     0.9999782232008675
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:33.758566 - LMFIT result report C-2-30 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 64
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 2.4741e-06
+    reduced chi-square = 1.2370e-07
+    Akaike info crit   = -408.361407
+    Bayesian info crit = -400.812828
+    R-squared          = 0.99872982
+[[Variables]]
+    amplitude: -5.2304e-04 +/- 4.2557e-05 (8.14%) (init = 0.0002650206)
+    center:     0.44051343 +/- 2.1277e-05 (0.00%) (init = 0.44018)
+    sigma:      0.00301607 +/- 1.9099e-04 (6.33%) (init = 0.0025)
+    sigma_r:    0.00269001 +/- 1.3348e-04 (4.96%) (init = 0.0025)
+    fwhm:       0.00570607 +/- 2.1613e-04 (3.79%) == 'sigma+sigma_r'
+    height:    -0.05835458 +/- 0.00256270 (4.39%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -1.80220234 +/- 0.57738226 (32.04%) (init = 0)
+    intercept:  1.37583097 +/- 0.25509292 (18.54%) (init = 0.5235525)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8427
+    C(sigma, slope)         = -0.8377
+    C(amplitude, sigma)     = -0.7592
+    C(sigma_r, slope)       = +0.6029
+    C(sigma_r, intercept)   = -0.5953
+    C(amplitude, sigma_r)   = -0.5230
+    C(center, intercept)    = -0.4347
+    C(center, slope)        = +0.4331
+    C(amplitude, intercept) = -0.3355
+    C(amplitude, slope)     = +0.3261
+    C(center, sigma)        = -0.2988
+    C(amplitude, center)    = +0.28862024-03-23 13:55:35.701564 - Results C-2-30 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4406159942007554
+Optimized frequency standard deviation (fmin)  4.81623600877287e-05
+Optimized frequency standard error (fmin)      1.5230275536640967e-06
+Optimized frequency mean with uncertainties    (4.4062+/-0.0005)e+05
+Accuracy of estimated frequency mean / SMC     0.9999778306755259
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:36.179573 - LMFIT result report T-4-0 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 145
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.4157e-06
+    reduced chi-square = 7.0783e-08
+    Akaike info crit   = -422.876225
+    Bayesian info crit = -415.327646
+    R-squared          = 0.99983741
+[[Variables]]
+    amplitude: -6.7751e-04 +/- 1.4333e-05 (2.12%) (init = 0.0005774035)
+    center:     0.44013939 +/- 6.9807e-06 (0.00%) (init = 0.4395333)
+    sigma:      0.00230684 +/- 4.0179e-05 (1.74%) (init = 0.0025)
+    sigma_r:    0.00227935 +/- 4.1496e-05 (1.82%) (init = 0.0025)
+    fwhm:       0.00458619 +/- 4.9262e-05 (1.07%) == 'sigma+sigma_r'
+    height:    -0.09404734 +/- 0.00100065 (1.06%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.88969463 +/- 0.28060961 (7.21%) (init = 0)
+    intercept:  2.28968504 +/- 0.12343619 (5.39%) (init = 0.4830867)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma_r, slope)     = +0.7788
+    C(sigma_r, intercept) = -0.7740
+    C(sigma, intercept)   = +0.7487
+    C(sigma, slope)       = -0.7436
+    C(amplitude, sigma_r) = -0.6219
+    C(amplitude, sigma)   = -0.5709
+    C(center, sigma)      = +0.4465
+    C(center, sigma_r)    = -0.4236
+    C(center, intercept)  = +0.2932
+    C(center, slope)      = -0.2930
+    C(sigma, sigma_r)     = -0.27272024-03-23 13:55:38.122563 - Results T-4-0 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.44024926967394395
+Optimized frequency standard deviation (fmin)  4.252689067699988e-05
+Optimized frequency standard error (fmin)      1.3448183634429964e-06
+Optimized frequency mean with uncertainties    (4.4025+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     1.0000045541395302
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:38.582562 - LMFIT result report T-4-5 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 75
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.3875e-06
+    reduced chi-square = 6.9377e-08
+    Akaike info crit   = -423.397970
+    Bayesian info crit = -415.849391
+    R-squared          = 0.99981279
+[[Variables]]
+    amplitude: -6.6397e-04 +/- 1.4911e-05 (2.25%) (init = 0.0005292489)
+    center:     0.44003745 +/- 7.2123e-06 (0.00%) (init = 0.43978)
+    sigma:      0.00230787 +/- 4.4732e-05 (1.94%) (init = 0.0025)
+    sigma_r:    0.00234233 +/- 4.2091e-05 (1.80%) (init = 0.0025)
+    fwhm:       0.00465020 +/- 5.2595e-05 (1.13%) == 'sigma+sigma_r'
+    height:    -0.09089866 +/- 0.00103405 (1.14%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.44763413 +/- 0.28577469 (8.29%) (init = 0)
+    intercept:  2.09347513 +/- 0.12589001 (6.01%) (init = 0.4853035)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7961
+    C(sigma, slope)       = -0.7914
+    C(sigma_r, slope)     = +0.7276
+    C(sigma_r, intercept) = -0.7222
+    C(amplitude, sigma)   = -0.6430
+    C(amplitude, sigma_r) = -0.5535
+    C(center, sigma_r)    = -0.4360
+    C(center, sigma)      = +0.3860
+    C(sigma, sigma_r)     = -0.2673
+    C(center, slope)      = -0.2606
+    C(center, intercept)  = +0.26012024-03-23 13:55:39.597567 - Results T-4-5 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.4401230047619803
+Optimized frequency standard deviation (fmin)  2.629675295712719e-05
+Optimized frequency standard error (fmin)      8.315763441129009e-07
+Optimized frequency mean with uncertainties    440123+/-26
+Accuracy of estimated frequency mean / SMC     0.9999574014206575
+---------------------------------------------  ---------------------
+
+2024-03-23 13:55:40.051562 - LMFIT result report T-4-10 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 80
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.5722e-06
+    reduced chi-square = 7.8609e-08
+    Akaike info crit   = -420.149822
+    Bayesian info crit = -412.601243
+    R-squared          = 0.99978783
+[[Variables]]
+    amplitude: -6.7443e-04 +/- 1.6633e-05 (2.47%) (init = 0.0005343808)
+    center:     0.44003958 +/- 7.6667e-06 (0.00%) (init = 0.43978)
+    sigma:      0.00239897 +/- 5.2339e-05 (2.18%) (init = 0.0025)
+    sigma_r:    0.00228285 +/- 4.1647e-05 (1.82%) (init = 0.0025)
+    fwhm:       0.00468182 +/- 5.8069e-05 (1.24%) == 'sigma+sigma_r'
+    height:    -0.09170704 +/- 0.00114558 (1.25%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -4.03608428 +/- 0.31171131 (7.72%) (init = 0)
+    intercept:  2.35333383 +/- 0.13748400 (5.84%) (init = 0.4852713)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8381
+    C(sigma, slope)         = -0.8339
+    C(amplitude, sigma)     = -0.7105
+    C(sigma_r, slope)       = +0.6651
+    C(sigma_r, intercept)   = -0.6593
+    C(amplitude, sigma_r)   = -0.4883
+    C(center, sigma_r)      = -0.4729
+    C(center, sigma)        = +0.3116
+    C(amplitude, intercept) = -0.2816
+    C(amplitude, slope)     = +0.2735
+    C(sigma, sigma_r)       = -0.25272024-03-23 13:55:44.099565 - Results T-4-10 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.44013119013883106
+Optimized frequency standard deviation (fmin)  3.436914801566465e-05
+Optimized frequency standard error (fmin)      1.086847889689567e-06
+Optimized frequency mean with uncertainties    440131+/-34
+Accuracy of estimated frequency mean / SMC     0.9999464612470425
+---------------------------------------------  ---------------------
+
+2024-03-23 13:55:44.533564 - LMFIT result report T-4-15 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 50
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 9.9293e-07
+    reduced chi-square = 4.9646e-08
+    Akaike info crit   = -432.098361
+    Bayesian info crit = -424.549782
+    R-squared          = 0.99986229
+[[Variables]]
+    amplitude: -6.5384e-04 +/- 1.2448e-05 (1.90%) (init = 0.0005196277)
+    center:     0.44001374 +/- 6.1542e-06 (0.00%) (init = 0.43978)
+    sigma:      0.00227509 +/- 3.7593e-05 (1.65%) (init = 0.0025)
+    sigma_r:    0.00235622 +/- 3.5891e-05 (1.52%) (init = 0.0025)
+    fwhm:       0.00463131 +/- 4.4451e-05 (0.96%) == 'sigma+sigma_r'
+    height:    -0.08987727 +/- 8.6657e-04 (0.96%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.22487055 +/- 0.24004221 (7.44%) (init = 0)
+    intercept:  1.99474568 +/- 0.10575036 (5.30%) (init = 0.4856197)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7964
+    C(sigma, slope)       = -0.7918
+    C(sigma_r, slope)     = +0.7278
+    C(sigma_r, intercept) = -0.7224
+    C(amplitude, sigma)   = -0.6433
+    C(amplitude, sigma_r) = -0.5516
+    C(center, sigma_r)    = -0.4393
+    C(center, sigma)      = +0.3965
+    C(center, slope)      = -0.2695
+    C(center, intercept)  = +0.2691
+    C(sigma, sigma_r)     = -0.26892024-03-23 13:55:45.473564 - Results T-4-15 
+---------------------------------------------  ----------------------------------
+Optimized frequency mean (fmin)                0.4401140234375
+Optimized frequency standard deviation (fmin)  5.551115123125783e-17
+Optimized frequency standard error (fmin)      1.7554167342883504e-18
+Optimized frequency mean with uncertainties    440114.02343750000+/-0.00000000006
+Accuracy of estimated frequency mean / SMC     1.0000006181637398
+---------------------------------------------  ----------------------------------
+
+2024-03-23 13:55:45.996564 - LMFIT result report T-4-20 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 50
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.4157e-06
+    reduced chi-square = 7.0787e-08
+    Akaike info crit   = -422.874681
+    Bayesian info crit = -415.326102
+    R-squared          = 0.99980407
+[[Variables]]
+    amplitude: -6.5966e-04 +/- 1.5343e-05 (2.33%) (init = 0.0005198858)
+    center:     0.44002814 +/- 7.3491e-06 (0.00%) (init = 0.4399636)
+    sigma:      0.00235873 +/- 4.8613e-05 (2.06%) (init = 0.0025)
+    sigma_r:    0.00229110 +/- 4.0141e-05 (1.75%) (init = 0.0025)
+    fwhm:       0.00464982 +/- 5.4464e-05 (1.17%) == 'sigma+sigma_r'
+    height:    -0.09031559 +/- 0.00106329 (1.18%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.75552116 +/- 0.29136160 (7.76%) (init = 0)
+    intercept:  2.22880934 +/- 0.12848333 (5.76%) (init = 0.4857087)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8314
+    C(sigma, slope)         = -0.8272
+    C(amplitude, sigma)     = -0.6986
+    C(sigma_r, slope)       = +0.6775
+    C(sigma_r, intercept)   = -0.6717
+    C(amplitude, sigma_r)   = -0.4976
+    C(center, sigma_r)      = -0.4736
+    C(center, sigma)        = +0.3380
+    C(sigma, sigma_r)       = -0.2583
+    C(amplitude, intercept) = -0.25432024-03-23 13:55:48.404564 - Results T-4-20 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4401149717084099
+Optimized frequency standard deviation (fmin)  8.979412866979466e-06
+Optimized frequency standard error (fmin)      2.8395396710677664e-07
+Optimized frequency mean with uncertainties    440115+/-9
+Accuracy of estimated frequency mean / SMC     0.9999482387803087
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:48.866567 - LMFIT result report T-4-25 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 137
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 2.3245e-06
+    reduced chi-square = 1.1623e-07
+    Akaike info crit   = -409.982466
+    Bayesian info crit = -402.433887
+    R-squared          = 0.99968824
+[[Variables]]
+    amplitude: -6.6627e-04 +/- 2.0294e-05 (3.05%) (init = 0.0005344669)
+    center:     0.43992983 +/- 9.5522e-06 (0.00%) (init = 0.4393333)
+    sigma:      0.00239790 +/- 6.0233e-05 (2.51%) (init = 0.0025)
+    sigma_r:    0.00232899 +/- 5.8501e-05 (2.51%) (init = 0.0025)
+    fwhm:       0.00472689 +/- 7.2073e-05 (1.52%) == 'sigma+sigma_r'
+    height:    -0.08973330 +/- 0.00139137 (1.55%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.83742770 +/- 0.38039397 (9.91%) (init = 0)
+    intercept:  2.26497121 +/- 0.16734180 (7.39%) (init = 0.4868427)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7686
+    C(sigma, slope)       = -0.7634
+    C(sigma_r, slope)     = +0.7568
+    C(sigma_r, intercept) = -0.7516
+    C(amplitude, sigma)   = -0.6045
+    C(amplitude, sigma_r) = -0.5977
+    C(center, sigma_r)    = -0.3909
+    C(center, sigma)      = +0.3750
+    C(sigma, sigma_r)     = -0.26332024-03-23 13:55:52.199564 - Results T-4-25 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.44003841332378224
+Optimized frequency standard deviation (fmin)  4.27265908836397e-05
+Optimized frequency standard error (fmin)      1.3511334384648778e-06
+Optimized frequency mean with uncertainties    (4.4004+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     0.9999821580063017
+---------------------------------------------  ----------------------
+
+2024-03-23 13:55:52.624564 - LMFIT result report T-4-30 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 88
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.1615e-06
+    reduced chi-square = 5.8076e-08
+    Akaike info crit   = -428.020812
+    Bayesian info crit = -420.472233
+    R-squared          = 0.99984264
+[[Variables]]
+    amplitude: -6.3471e-04 +/- 1.3194e-05 (2.08%) (init = 0.0005336702)
+    center:     0.43991129 +/- 6.7996e-06 (0.00%) (init = 0.43958)
+    sigma:      0.00234817 +/- 4.1816e-05 (1.78%) (init = 0.0025)
+    sigma_r:    0.00225964 +/- 3.8546e-05 (1.71%) (init = 0.0025)
+    fwhm:       0.00460781 +/- 4.8608e-05 (1.05%) == 'sigma+sigma_r'
+    height:    -0.08769274 +/- 9.1706e-04 (1.05%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.93566870 +/- 0.25636290 (6.51%) (init = 0)
+    intercept:  2.30587916 +/- 0.11283798 (4.89%) (init = 0.4862731)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7887
+    C(sigma, slope)       = -0.7840
+    C(sigma_r, slope)     = +0.7371
+    C(sigma_r, intercept) = -0.7318
+    C(amplitude, sigma)   = -0.6288
+    C(amplitude, sigma_r) = -0.5658
+    C(center, sigma_r)    = -0.4528
+    C(center, sigma)      = +0.4020
+    C(center, slope)      = -0.2826
+    C(center, intercept)  = +0.2822
+    C(sigma, sigma_r)     = -0.27042024-03-23 13:55:57.600565 - Results T-4-30 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.4400001764630392
+Optimized frequency standard deviation (fmin)  3.890199636415491e-06
+Optimized frequency standard error (fmin)      1.230189140383186e-07
+Optimized frequency mean with uncertainties    440000+/-4
+Accuracy of estimated frequency mean / SMC     0.9999407168038841
+---------------------------------------------  ---------------------
+
+2024-03-23 13:55:58.032563 - LMFIT result report T-5-0 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 101
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.4636e-06
+    reduced chi-square = 7.3178e-08
+    Akaike info crit   = -422.011226
+    Bayesian info crit = -414.462647
+    R-squared          = 0.99978180
+[[Variables]]
+    amplitude: -6.0312e-04 +/- 1.4717e-05 (2.44%) (init = 0.00050059)
+    center:     0.43973495 +/- 8.0144e-06 (0.00%) (init = 0.43938)
+    sigma:      0.00232691 +/- 4.7261e-05 (2.03%) (init = 0.0025)
+    sigma_r:    0.00227459 +/- 4.7129e-05 (2.07%) (init = 0.0025)
+    fwhm:       0.00460150 +/- 5.6942e-05 (1.24%) == 'sigma+sigma_r'
+    height:    -0.08344262 +/- 0.00102512 (1.23%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.34876061 +/- 0.28689458 (8.57%) (init = 0)
+    intercept:  2.04865822 +/- 0.12612307 (6.16%) (init = 0.4928232)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma_r, slope)     = +0.7673
+    C(sigma_r, intercept) = -0.7623
+    C(sigma, intercept)   = +0.7607
+    C(sigma, slope)       = -0.7556
+    C(amplitude, sigma_r) = -0.6062
+    C(amplitude, sigma)   = -0.5878
+    C(center, sigma)      = +0.4306
+    C(center, sigma_r)    = -0.4295
+    C(center, intercept)  = +0.2872
+    C(center, slope)      = -0.2871
+    C(sigma, sigma_r)     = -0.27222024-03-23 13:55:59.890568 - Results T-5-0 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.43983176802548873
+Optimized frequency standard deviation (fmin)  4.146825663675797e-05
+Optimized frequency standard error (fmin)      1.3113414156854886e-06
+Optimized frequency mean with uncertainties    (4.3983+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     0.9999829576358487
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:00.369567 - LMFIT result report T-5-5 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 131
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 2.0778e-06
+    reduced chi-square = 1.0389e-07
+    Akaike info crit   = -412.899490
+    Bayesian info crit = -405.350911
+    R-squared          = 0.99968894
+[[Variables]]
+    amplitude: -6.0928e-04 +/- 1.7793e-05 (2.92%) (init = 0.0005001248)
+    center:     0.43973598 +/- 9.5193e-06 (0.00%) (init = 0.43938)
+    sigma:      0.00235515 +/- 5.7756e-05 (2.45%) (init = 0.0025)
+    sigma_r:    0.00226679 +/- 5.5391e-05 (2.44%) (init = 0.0025)
+    fwhm:       0.00462195 +/- 6.8351e-05 (1.48%) == 'sigma+sigma_r'
+    height:    -0.08392073 +/- 0.00123561 (1.47%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.37069904 +/- 0.34463730 (10.22%) (init = 0)
+    intercept:  2.05875463 +/- 0.15155066 (7.36%) (init = 0.4925939)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7724
+    C(sigma, slope)       = -0.7674
+    C(sigma_r, slope)     = +0.7552
+    C(sigma_r, intercept) = -0.7500
+    C(amplitude, sigma)   = -0.6048
+    C(amplitude, sigma_r) = -0.5905
+    C(center, sigma_r)    = -0.4344
+    C(center, sigma)      = +0.4115
+    C(center, slope)      = -0.2779
+    C(center, intercept)  = +0.2778
+    C(sigma, sigma_r)     = -0.27072024-03-23 13:56:02.366564 - Results T-5-5 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.43983011382004306
+Optimized frequency standard deviation (fmin)  4.098643594252513e-05
+Optimized frequency standard error (fmin)      1.2961049075096954e-06
+Optimized frequency mean with uncertainties    (4.3983+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     0.9999780598364565
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:02.909565 - LMFIT result report T-5-10 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 94
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.4286e-06
+    reduced chi-square = 7.1428e-08
+    Akaike info crit   = -422.640493
+    Bayesian info crit = -415.091914
+    R-squared          = 0.99977594
+[[Variables]]
+    amplitude: -6.0262e-04 +/- 1.4732e-05 (2.44%) (init = 0.0004897224)
+    center:     0.43967529 +/- 7.9630e-06 (0.00%) (init = 0.43938)
+    sigma:      0.00232513 +/- 4.9060e-05 (2.11%) (init = 0.0025)
+    sigma_r:    0.00228953 +/- 4.5341e-05 (1.98%) (init = 0.0025)
+    fwhm:       0.00461467 +/- 5.7132e-05 (1.24%) == 'sigma+sigma_r'
+    height:    -0.08313514 +/- 0.00102406 (1.23%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.27672993 +/- 0.28544622 (8.71%) (init = 0)
+    intercept:  2.01697482 +/- 0.12561258 (6.23%) (init = 0.4932016)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7945
+    C(sigma, slope)       = -0.7898
+    C(sigma_r, slope)     = +0.7301
+    C(sigma_r, intercept) = -0.7247
+    C(amplitude, sigma)   = -0.6386
+    C(amplitude, sigma_r) = -0.5563
+    C(center, sigma_r)    = -0.4516
+    C(center, sigma)      = +0.3969
+    C(center, slope)      = -0.2779
+    C(center, intercept)  = +0.2775
+    C(sigma, sigma_r)     = -0.26942024-03-23 13:56:04.365565 - Results T-5-10 
+---------------------------------------------  --------------------
+Optimized frequency mean (fmin)                0.4397966044421074
+Optimized frequency standard deviation (fmin)  1.67374820094131e-05
+Optimized frequency standard error (fmin)      5.29285654458372e-07
+Optimized frequency mean with uncertainties    439797+/-17
+Accuracy of estimated frequency mean / SMC     1.0000394436890832
+---------------------------------------------  --------------------
+
+2024-03-23 13:56:04.921563 - LMFIT result report T-5-15 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 140
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.0832e-06
+    reduced chi-square = 5.4162e-08
+    Akaike info crit   = -429.835087
+    Bayesian info crit = -422.286507
+    R-squared          = 0.99982854
+[[Variables]]
+    amplitude: -5.5947e-04 +/- 1.1429e-05 (2.04%) (init = 0.000484921)
+    center:     0.43966679 +/- 7.0615e-06 (0.00%) (init = 0.43938)
+    sigma:      0.00225455 +/- 4.1182e-05 (1.83%) (init = 0.0025)
+    sigma_r:    0.00219614 +/- 3.6665e-05 (1.67%) (init = 0.0025)
+    fwhm:       0.00445069 +/- 4.6903e-05 (1.05%) == 'sigma+sigma_r'
+    height:    -0.08002635 +/- 8.1071e-04 (1.01%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.45315882 +/- 0.23272853 (6.74%) (init = 0)
+    intercept:  2.09141313 +/- 0.10244571 (4.90%) (init = 0.493402)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.8073
+    C(sigma, slope)       = -0.8029
+    C(sigma_r, slope)     = +0.7168
+    C(sigma_r, intercept) = -0.7115
+    C(amplitude, sigma)   = -0.6526
+    C(amplitude, sigma_r) = -0.5320
+    C(center, sigma_r)    = -0.5129
+    C(center, sigma)      = +0.4420
+    C(center, slope)      = -0.3451
+    C(center, intercept)  = +0.3445
+    C(sigma, sigma_r)     = -0.27832024-03-23 13:56:08.184567 - Results T-5-15 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.43978698139828254
+Optimized frequency standard deviation (fmin)  3.080249267972831e-05
+Optimized frequency standard error (fmin)      9.740603447860488e-07
+Optimized frequency mean with uncertainties    439787+/-31
+Accuracy of estimated frequency mean / SMC     1.0000357555713684
+---------------------------------------------  ---------------------
+
+2024-03-23 13:56:08.696568 - LMFIT result report T-5-20 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 160
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.0491e-06
+    reduced chi-square = 5.2453e-08
+    Akaike info crit   = -430.668353
+    Bayesian info crit = -423.119773
+    R-squared          = 0.99983438
+[[Variables]]
+    amplitude: -5.6381e-04 +/- 1.1347e-05 (2.01%) (init = 0.0004858139)
+    center:     0.43967258 +/- 6.9306e-06 (0.00%) (init = 0.43938)
+    sigma:      0.00225857 +/- 4.0357e-05 (1.79%) (init = 0.0025)
+    sigma_r:    0.00220713 +/- 3.6534e-05 (1.66%) (init = 0.0025)
+    fwhm:       0.00446570 +/- 4.6289e-05 (1.04%) == 'sigma+sigma_r'
+    height:    -0.08037552 +/- 8.0340e-04 (1.00%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.35918995 +/- 0.23021053 (6.85%) (init = 0)
+    intercept:  2.05038304 +/- 0.10132114 (4.94%) (init = 0.4931863)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.8017
+    C(sigma, slope)       = -0.7972
+    C(sigma_r, slope)     = +0.7238
+    C(sigma_r, intercept) = -0.7185
+    C(amplitude, sigma)   = -0.6442
+    C(amplitude, sigma_r) = -0.5413
+    C(center, sigma_r)    = -0.5041
+    C(center, sigma)      = +0.4426
+    C(center, slope)      = -0.3408
+    C(center, intercept)  = +0.3403
+    C(sigma, sigma_r)     = -0.27832024-03-23 13:56:10.803566 - Results T-5-20 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.4397956596559195
+Optimized frequency standard deviation (fmin)  1.881462696918998e-05
+Optimized frequency standard error (fmin)      5.949707454907098e-07
+Optimized frequency mean with uncertainties    439796+/-19
+Accuracy of estimated frequency mean / SMC     1.0000475292858824
+---------------------------------------------  ---------------------
+
+2024-03-23 13:56:11.302565 - LMFIT result report T-5-25 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 81
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.6344e-06
+    reduced chi-square = 8.1722e-08
+    Akaike info crit   = -419.139930
+    Bayesian info crit = -411.591351
+    R-squared          = 0.99974266
+[[Variables]]
+    amplitude: -5.8427e-04 +/- 1.5358e-05 (2.63%) (init = 0.0004897902)
+    center:     0.43967779 +/- 8.5942e-06 (0.00%) (init = 0.43938)
+    sigma:      0.00236953 +/- 5.5986e-05 (2.36%) (init = 0.0025)
+    sigma_r:    0.00217758 +/- 4.3568e-05 (2.00%) (init = 0.0025)
+    fwhm:       0.00454711 +/- 6.1295e-05 (1.35%) == 'sigma+sigma_r'
+    height:    -0.08180093 +/- 0.00107063 (1.31%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.90931119 +/- 0.30010378 (7.68%) (init = 0)
+    intercept:  2.29378689 +/- 0.13222447 (5.76%) (init = 0.4929049)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8384
+    C(sigma, slope)         = -0.8343
+    C(amplitude, sigma)     = -0.7064
+    C(sigma_r, slope)       = +0.6676
+    C(sigma_r, intercept)   = -0.6619
+    C(center, sigma_r)      = -0.5196
+    C(amplitude, sigma_r)   = -0.4846
+    C(center, sigma)        = +0.3638
+    C(center, slope)        = -0.2889
+    C(center, intercept)    = +0.2877
+    C(amplitude, intercept) = -0.2786
+    C(amplitude, slope)     = +0.2706
+    C(sigma, sigma_r)       = -0.26152024-03-23 13:56:18.592566 - Results T-5-25 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4397979644920023
+Optimized frequency standard deviation (fmin)  1.3065361216086579e-05
+Optimized frequency standard error (fmin)      4.131629989566096e-07
+Optimized frequency mean with uncertainties    439798+/-13
+Accuracy of estimated frequency mean / SMC     1.0000141096688495
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:19.063565 - LMFIT result report T-5-30 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 79
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.1760e-06
+    reduced chi-square = 5.8802e-08
+    Akaike info crit   = -427.697632
+    Bayesian info crit = -420.149053
+    R-squared          = 0.99980959
+[[Variables]]
+    amplitude: -5.6811e-04 +/- 1.2204e-05 (2.15%) (init = 0.0004792274)
+    center:     0.43963071 +/- 7.3499e-06 (0.00%) (init = 0.43938)
+    sigma:      0.00217723 +/- 4.0245e-05 (1.85%) (init = 0.0025)
+    sigma_r:    0.00231782 +/- 4.2338e-05 (1.83%) (init = 0.0025)
+    fwhm:       0.00449505 +/- 4.9597e-05 (1.10%) == 'sigma+sigma_r'
+    height:    -0.08045980 +/- 8.6152e-04 (1.07%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.67655599 +/- 0.24609797 (9.19%) (init = 0)
+    intercept:  1.75047194 +/- 0.10822660 (6.18%) (init = 0.4934057)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7657
+    C(sigma_r, slope)     = +0.7644
+    C(sigma, slope)       = -0.7607
+    C(sigma_r, intercept) = -0.7595
+    C(amplitude, sigma_r) = -0.5945
+    C(amplitude, sigma)   = -0.5928
+    C(center, sigma)      = +0.4765
+    C(center, sigma_r)    = -0.4556
+    C(center, intercept)  = +0.3341
+    C(center, slope)      = -0.3340
+    C(sigma, sigma_r)     = -0.27942024-03-23 13:56:20.028568 - Results T-5-30 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.439714187546922
+Optimized frequency standard deviation (fmin)  2.7163457386021763e-06
+Optimized frequency standard error (fmin)      8.589839446475239e-08
+Optimized frequency mean with uncertainties    439714.2+/-2.7
+Accuracy of estimated frequency mean / SMC     0.999986208326197
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:20.488565 - LMFIT result report T-6-0 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 68
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.8290e-06
+    reduced chi-square = 9.1450e-08
+    Akaike info crit   = -416.215736
+    Bayesian info crit = -408.667157
+    R-squared          = 0.99972584
+[[Variables]]
+    amplitude: -5.4790e-04 +/- 1.3917e-05 (2.54%) (init = 0.0005048267)
+    center:     0.44053943 +/- 9.1175e-06 (0.00%) (init = 0.44018)
+    sigma:      0.00225155 +/- 5.0478e-05 (2.24%) (init = 0.0025)
+    sigma_r:    0.00212053 +/- 4.6326e-05 (2.18%) (init = 0.0025)
+    fwhm:       0.00437208 +/- 5.7934e-05 (1.33%) == 'sigma+sigma_r'
+    height:    -0.07977929 +/- 9.9584e-04 (1.25%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.47929201 +/- 0.29148187 (8.38%) (init = 0)
+    intercept:  2.10762426 +/- 0.12844770 (6.09%) (init = 0.4944466)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7867
+    C(sigma, slope)       = -0.7821
+    C(sigma_r, slope)     = +0.7434
+    C(sigma_r, intercept) = -0.7384
+    C(amplitude, sigma)   = -0.6162
+    C(amplitude, sigma_r) = -0.5639
+    C(center, sigma_r)    = -0.5253
+    C(center, sigma)      = +0.4794
+    C(center, slope)      = -0.3803
+    C(center, intercept)  = +0.3799
+    C(sigma, sigma_r)     = -0.28602024-03-23 13:56:24.454563 - Results T-6-0 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4406180879279458
+Optimized frequency standard deviation (fmin)  3.5062484930891135e-05
+Optimized frequency standard error (fmin)      1.1087731280694747e-06
+Optimized frequency mean with uncertainties    440618+/-35
+Accuracy of estimated frequency mean / SMC     0.9999553468856976
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:24.962564 - LMFIT result report T-6-5 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 145
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.9583e-06
+    reduced chi-square = 9.7915e-08
+    Akaike info crit   = -414.439773
+    Bayesian info crit = -406.891193
+    R-squared          = 0.99969418
+[[Variables]]
+    amplitude: -5.5469e-04 +/- 1.4910e-05 (2.69%) (init = 0.0004839694)
+    center:     0.44050006 +/- 9.4697e-06 (0.00%) (init = 0.44018)
+    sigma:      0.00218926 +/- 5.0158e-05 (2.29%) (init = 0.0025)
+    sigma_r:    0.00223018 +/- 5.2580e-05 (2.36%) (init = 0.0025)
+    fwhm:       0.00441944 +/- 6.1530e-05 (1.39%) == 'sigma+sigma_r'
+    height:    -0.07990298 +/- 0.00106169 (1.33%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.71403956 +/- 0.30768426 (11.34%) (init = 0)
+    intercept:  1.77095522 +/- 0.13549353 (7.65%) (init = 0.4956639)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma_r, slope)     = +0.7770
+    C(sigma_r, intercept) = -0.7723
+    C(sigma, intercept)   = +0.7532
+    C(sigma, slope)       = -0.7483
+    C(amplitude, sigma_r) = -0.6119
+    C(amplitude, sigma)   = -0.5711
+    C(center, sigma)      = +0.5005
+    C(center, sigma_r)    = -0.4765
+    C(center, intercept)  = +0.3628
+    C(center, slope)      = -0.3626
+    C(sigma, sigma_r)     = -0.28342024-03-23 13:56:25.913563 - Results T-6-5 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.44059844635468903
+Optimized frequency standard deviation (fmin)  1.1457951298813822e-05
+Optimized frequency standard error (fmin)      3.623322342353622e-07
+Optimized frequency mean with uncertainties    440598+/-11
+Accuracy of estimated frequency mean / SMC     1.000031067526913
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:26.515567 - LMFIT result report T-6-10 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 94
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 2.3188e-06
+    reduced chi-square = 1.1594e-07
+    Akaike info crit   = -410.046921
+    Bayesian info crit = -402.498342
+    R-squared          = 0.99963359
+[[Variables]]
+    amplitude: -5.7414e-04 +/- 1.7277e-05 (3.01%) (init = 0.0004859719)
+    center:     0.44046652 +/- 1.0236e-05 (0.00%) (init = 0.44018)
+    sigma:      0.00226416 +/- 6.0057e-05 (2.65%) (init = 0.0025)
+    sigma_r:    0.00223530 +/- 5.5224e-05 (2.47%) (init = 0.0025)
+    fwhm:       0.00449946 +/- 6.9432e-05 (1.54%) == 'sigma+sigma_r'
+    height:    -0.08123391 +/- 0.00121867 (1.50%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.17994461 +/- 0.34699196 (10.91%) (init = 0)
+    intercept:  1.97767667 +/- 0.15298687 (7.74%) (init = 0.4958372)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.7983
+    C(sigma, slope)       = -0.7938
+    C(sigma_r, slope)     = +0.7276
+    C(sigma_r, intercept) = -0.7223
+    C(amplitude, sigma)   = -0.6402
+    C(amplitude, sigma_r) = -0.5473
+    C(center, sigma_r)    = -0.4903
+    C(center, sigma)      = +0.4358
+    C(center, slope)      = -0.3278
+    C(center, intercept)  = +0.3274
+    C(sigma, sigma_r)     = -0.27682024-03-23 13:56:28.323566 - Results T-6-10 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.44057059010130484
+Optimized frequency standard deviation (fmin)  4.0815652639108326e-05
+Optimized frequency standard error (fmin)      1.290704265258448e-06
+Optimized frequency mean with uncertainties    (4.4057+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     1.000013241244497
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:28.784563 - LMFIT result report T-6-15 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 64
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.1702e-06
+    reduced chi-square = 5.8510e-08
+    Akaike info crit   = -427.827058
+    Bayesian info crit = -420.278479
+    R-squared          = 0.99980923
+[[Variables]]
+    amplitude: -5.5433e-04 +/- 1.1691e-05 (2.11%) (init = 0.0004751126)
+    center:     0.44044435 +/- 7.3581e-06 (0.00%) (init = 0.4403636)
+    sigma:      0.00221463 +/- 4.1832e-05 (1.89%) (init = 0.0025)
+    sigma_r:    0.00221641 +/- 3.8499e-05 (1.74%) (init = 0.0025)
+    fwhm:       0.00443104 +/- 4.8244e-05 (1.09%) == 'sigma+sigma_r'
+    height:    -0.07964238 +/- 8.3274e-04 (1.05%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.87479495 +/- 0.23984785 (8.34%) (init = 0)
+    intercept:  1.84173339 +/- 0.10576227 (5.74%) (init = 0.4958234)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.8023
+    C(sigma, slope)       = -0.7979
+    C(sigma_r, slope)     = +0.7237
+    C(sigma_r, intercept) = -0.7185
+    C(amplitude, sigma)   = -0.6444
+    C(amplitude, sigma_r) = -0.5386
+    C(center, sigma_r)    = -0.5104
+    C(center, sigma)      = +0.4572
+    C(center, slope)      = -0.3544
+    C(center, intercept)  = +0.3539
+    C(sigma, sigma_r)     = -0.28082024-03-23 13:56:29.752565 - Results T-6-15 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4405154097065815
+Optimized frequency standard deviation (fmin)  1.1129848383567103e-05
+Optimized frequency standard error (fmin)      3.51956709044154e-07
+Optimized frequency mean with uncertainties    440515+/-11
+Accuracy of estimated frequency mean / SMC     0.9999594954101276
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:30.234563 - LMFIT result report T-6-20 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 57
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.8054e-06
+    reduced chi-square = 9.0270e-08
+    Akaike info crit   = -416.553560
+    Bayesian info crit = -409.004980
+    R-squared          = 0.99970053
+[[Variables]]
+    amplitude: -5.4834e-04 +/- 1.4621e-05 (2.67%) (init = 0.0004746205)
+    center:     0.44042757 +/- 9.1876e-06 (0.00%) (init = 0.4403636)
+    sigma:      0.00224922 +/- 5.5155e-05 (2.45%) (init = 0.0025)
+    sigma_r:    0.00216308 +/- 4.4817e-05 (2.07%) (init = 0.0025)
+    fwhm:       0.00441230 +/- 6.0860e-05 (1.38%) == 'sigma+sigma_r'
+    height:    -0.07911553 +/- 0.00104321 (1.32%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.20047823 +/- 0.29871113 (9.33%) (init = 0)
+    intercept:  1.98471969 +/- 0.13184982 (6.64%) (init = 0.4955743)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8365
+    C(sigma, slope)         = -0.8326
+    C(amplitude, sigma)     = -0.7000
+    C(sigma_r, slope)       = +0.6737
+    C(sigma_r, intercept)   = -0.6682
+    C(center, sigma_r)      = -0.5458
+    C(amplitude, sigma_r)   = -0.4813
+    C(center, sigma)        = +0.4222
+    C(center, slope)        = -0.3457
+    C(center, intercept)    = +0.3446
+    C(sigma, sigma_r)       = -0.2724
+    C(amplitude, intercept) = -0.2723
+    C(amplitude, slope)     = +0.26452024-03-23 13:56:32.375565 - Results T-6-20 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4405142455032703
+Optimized frequency standard deviation (fmin)  5.073727272346523e-06
+Optimized frequency standard error (fmin)      1.6044534407128455e-07
+Optimized frequency mean with uncertainties    440514+/-5
+Accuracy of estimated frequency mean / SMC     0.9999806893698151
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:32.868568 - LMFIT result report T-6-25 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 71
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 2.0869e-06
+    reduced chi-square = 1.0434e-07
+    Akaike info crit   = -412.786319
+    Bayesian info crit = -405.237740
+    R-squared          = 0.99964948
+[[Variables]]
+    amplitude: -5.6041e-04 +/- 1.6201e-05 (2.89%) (init = 0.0004631336)
+    center:     0.44039857 +/- 9.8515e-06 (0.00%) (init = 0.4403636)
+    sigma:      0.00221690 +/- 5.8052e-05 (2.62%) (init = 0.0025)
+    sigma_r:    0.00225208 +/- 5.1552e-05 (2.29%) (init = 0.0025)
+    fwhm:       0.00446898 +/- 6.6176e-05 (1.48%) == 'sigma+sigma_r'
+    height:    -0.07983231 +/- 0.00115284 (1.44%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -2.83676143 +/- 0.32726795 (11.54%) (init = 0)
+    intercept:  1.82552728 +/- 0.14439478 (7.91%) (init = 0.4963997)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)   = -1.0000
+    C(sigma, intercept)   = +0.8191
+    C(sigma, slope)       = -0.8148
+    C(sigma_r, slope)     = +0.7005
+    C(sigma_r, intercept) = -0.6950
+    C(amplitude, sigma)   = -0.6732
+    C(amplitude, sigma_r) = -0.5110
+    C(center, sigma_r)    = -0.5092
+    C(center, sigma)      = +0.4306
+    C(center, slope)      = -0.3329
+    C(center, intercept)  = +0.3321
+    C(sigma, sigma_r)     = -0.27542024-03-23 13:56:33.981563 - Results T-6-25 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.44050381095336283
+Optimized frequency standard deviation (fmin)  2.7738130316107183e-05
+Optimized frequency standard error (fmin)      8.771566983346501e-07
+Optimized frequency mean with uncertainties    440504+/-28
+Accuracy of estimated frequency mean / SMC     1.000034194014067
+---------------------------------------------  ----------------------
+
+2024-03-23 13:56:34.485564 - LMFIT result report T-6-30 
+[[Model]]
+    (Model(linear) + Model(split_lorentzian))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 50
+    # data points      = 26
+    # variables        = 6
+    chi-square         = 1.8945e-06
+    reduced chi-square = 9.4725e-08
+    Akaike info crit   = -415.300972
+    Bayesian info crit = -407.752393
+    R-squared          = 0.99967635
+[[Variables]]
+    amplitude: -5.6825e-04 +/- 1.6226e-05 (2.86%) (init = 0.0004595246)
+    center:     0.44040312 +/- 9.4180e-06 (0.00%) (init = 0.4403636)
+    sigma:      0.00228323 +/- 5.9311e-05 (2.60%) (init = 0.0025)
+    sigma_r:    0.00223195 +/- 4.8079e-05 (2.15%) (init = 0.0025)
+    fwhm:       0.00451518 +/- 6.5733e-05 (1.46%) == 'sigma+sigma_r'
+    height:    -0.08012092 +/- 0.00114605 (1.43%) == '2*amplitude/3.1415927/max(0.0000000, (sigma+sigma_r))'
+    slope:     -3.02798503 +/- 0.32040496 (10.58%) (init = 0)
+    intercept:  1.91013584 +/- 0.14145602 (7.41%) (init = 0.4967283)
+[[Correlations]] (unreported correlations are < 0.250)
+    C(slope, intercept)     = -1.0000
+    C(sigma, intercept)     = +0.8402
+    C(sigma, slope)         = -0.8362
+    C(amplitude, sigma)     = -0.7095
+    C(sigma_r, slope)       = +0.6657
+    C(sigma_r, intercept)   = -0.6601
+    C(center, sigma_r)      = -0.5191
+    C(amplitude, sigma_r)   = -0.4776
+    C(center, sigma)        = +0.3823
+    C(center, slope)        = -0.3003
+    C(center, intercept)    = +0.2992
+    C(amplitude, intercept) = -0.2900
+    C(amplitude, slope)     = +0.2822
+    C(sigma, sigma_r)       = -0.26452024-03-23 13:56:35.980566 - Results T-6-30 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.44051148920619704
+Optimized frequency standard deviation (fmin)  1.4329235924779398e-05
+Optimized frequency standard error (fmin)      4.531302265221208e-07
+Optimized frequency mean with uncertainties    440511+/-14
+Accuracy of estimated frequency mean / SMC     1.0000311906955859
+---------------------------------------------  ----------------------
+2024-03-23 13:56:38.340065 - Complete dataset - EXPORTED 
+2024-03-23 13:56:38.774691 - Summary - Sensor 1  - Control 
+----------------------  -------------------------
+Parameter f0            0.439118531+/-0.000003592
+Parameter a             (1.3610+/-0.9545)e-05
+Parameter c             0.1496+/-0.2720
+Frequency t = 30 [MHz]  0.439112622+/-0.000005512
+Frequency shift [Hz]    -5.9091231+/-4.1802704
+----------------------  -------------------------
+2024-03-23 13:56:38.774691 - Values 1  - Control 
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
+|--------+---------+----------+--------+--------------+----------------------------------+-------------|
+| C-1-0  | C       |        1 |      0 |     0.481844 |                         0.439119 | 1.91128e-05 |
+| C-1-5  | C       |        1 |      5 |     0.482087 |                         0.439114 | 1.11022e-16 |
+| C-1-10 | C       |        1 |     10 |     0.482528 |                         0.439116 | 1.05898e-05 |
+| C-1-15 | C       |        1 |     15 |     0.48274  |                         0.439116 | 1.07776e-05 |
+| C-1-20 | C       |        1 |     20 |     0.482532 |                         0.439107 | 3.68207e-05 |
+| C-1-25 | C       |        1 |     25 |     0.48249  |                         0.439114 | 1.11022e-16 |
+| C-1-30 | C       |        1 |     30 |     0.482341 |                         0.439114 | 1.11022e-16 |
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+2024-03-23 13:56:38.774691 - Values 1  - Control 
+[[Model]]
+    Model(fit_model)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 5
+    # data points      = 7
+    # variables        = 3
+    chi-square         = 5.3217e-11
+    reduced chi-square = 1.3304e-11
+    Akaike info crit   = -173.217923
+    Bayesian info crit = -173.380193
+    R-squared          = 0.34336956
+[[Variables]]
+    f0:  0.43911853 +/- 3.5923e-06 (0.00%) (init = 0.4391185)
+    a:   1.3610e-05 +/- 9.5448e-06 (70.13%) (init = 1.360866e-05)
+    c:   0.14964208 +/- 0.27200080 (181.77%) (init = 0.1495134)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(f0, a) = +0.7639
+    C(f0, c) = +0.3838
+    C(a, c)  = -0.1672
+2024-03-23 13:56:39.184689 - Summary - Sensor 15  - Control 
+----------------------  -----------------------
+Parameter f0            0.43949186+/-0.00001256
+Parameter a             (9.251+/-4.973)e-05
+Parameter c             0.0791+/-0.1117
+Frequency t = 30 [MHz]  0.43945499+/-0.00002668
+Frequency shift [Hz]    -36.868449+/-23.537704
+----------------------  -----------------------
+2024-03-23 13:56:39.184689 - Values 15  - Control 
++---------+---------+----------+--------+--------------+----------------------------------+-------------+
+|         | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
+|---------+---------+----------+--------+--------------+----------------------------------+-------------|
+| C-15-0  | C       |       15 |      0 |     0.50037  |                         0.439489 | 1.52226e-05 |
+| C-15-5  | C       |       15 |      5 |     0.501249 |                         0.439484 | 1.17686e-05 |
+| C-15-10 | C       |       15 |     10 |     0.501228 |                         0.439478 | 2.40871e-05 |
+| C-15-15 | C       |       15 |     15 |     0.501276 |                         0.439444 | 3.28862e-05 |
+| C-15-20 | C       |       15 |     20 |     0.501199 |                         0.439469 | 3.39441e-05 |
+| C-15-25 | C       |       15 |     25 |     0.500922 |                         0.43945  | 4.23148e-05 |
+| C-15-30 | C       |       15 |     30 |     0.501093 |                         0.439461 | 3.88932e-05 |
++---------+---------+----------+--------+--------------+----------------------------------+-------------+
+2024-03-23 13:56:39.184689 - Values 15  - Control 
+[[Model]]
+    Model(fit_model)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 5
+    # data points      = 7
+    # variables        = 3
+    chi-square         = 6.9390e-10
+    reduced chi-square = 1.7348e-10
+    Akaike info crit   = -155.242208
+    Bayesian info crit = -155.404478
+    R-squared          = 0.60621276
+[[Variables]]
+    f0:  0.43949186 +/- 1.2557e-05 (0.00%) (init = 0.4394919)
+    a:   9.2513e-05 +/- 4.9734e-05 (53.76%) (init = 9.251347e-05)
+    c:   0.07909191 +/- 0.11165061 (141.17%) (init = 0.07910077)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a, c)  = -0.6619
+    C(f0, c) = +0.5000
+    C(f0, a) = +0.2461
+2024-03-23 13:56:39.594688 - Summary - Sensor 2  - Control 
+----------------------  -----------------------
+Parameter f0            0.44068897+/-0.00001026
+Parameter a             0.0002304+/-0.0001740
+Parameter c             0.03539+/-0.04588
+Frequency t = 30 [MHz]  0.44062255+/-0.00007040
+Frequency shift [Hz]    -66.420690+/-69.653662
+----------------------  -----------------------
+2024-03-23 13:56:39.594688 - Values 2  - Control 
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
+|--------+---------+----------+--------+--------------+----------------------------------+-------------|
+| C-2-0  | C       |        2 |      0 |     0.522322 |                         0.440688 | 4.21827e-05 |
+| C-2-5  | C       |        2 |      5 |     0.522122 |                         0.440675 | 3.41477e-05 |
+| C-2-10 | C       |        2 |     10 |     0.52227  |                         0.440661 | 4.3888e-05  |
+| C-2-15 | C       |        2 |     15 |     0.522861 |                         0.440644 | 5.27834e-05 |
+| C-2-20 | C       |        2 |     20 |     0.523059 |                         0.440626 | 3.3862e-05  |
+| C-2-25 | C       |        2 |     25 |     0.522923 |                         0.440647 | 4.312e-05   |
+| C-2-30 | C       |        2 |     30 |     0.523481 |                         0.440616 | 4.81624e-05 |
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+2024-03-23 13:56:39.594688 - Values 2  - Control 
+[[Model]]
+    Model(fit_model)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 5
+    # data points      = 7
+    # variables        = 3
+    chi-square         = 5.0193e-10
+    reduced chi-square = 1.2548e-10
+    Akaike info crit   = -157.509326
+    Bayesian info crit = -157.671595
+    R-squared          = 0.87266484
+[[Variables]]
+    f0:  0.44068897 +/- 1.0258e-05 (0.00%) (init = 0.440689)
+    a:   2.3039e-04 +/- 1.7399e-04 (75.52%) (init = 0.0002303893)
+    c:   0.03539486 +/- 0.04588169 (129.63%) (init = 0.03539654)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a, c)  = -0.9675
+    C(f0, c) = +0.5733
+    C(f0, a) = -0.3756
+2024-03-23 13:56:39.996689 - Summary - Sensor 4  - Test 
+----------------------  -----------------------
+Parameter f0            0.44021569+/-0.00003481
+Parameter a             0.001379+/-0.004344
+Parameter c             0.01332+/-0.05147
+Frequency t = 30 [MHz]  0.4400157+/-0.0008907
+Frequency shift [Hz]    -200.00981+/-889.99826
+----------------------  -----------------------
+2024-03-23 13:56:39.997688 - Values 4  - Test 
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
+|--------+---------+----------+--------+--------------+----------------------------------+-------------|
+| T-4-0  | T       |        4 |      0 |     0.48342  |                         0.440249 | 4.25269e-05 |
+| T-4-5  | T       |        4 |      5 |     0.485309 |                         0.440123 | 2.62968e-05 |
+| T-4-10 | T       |        4 |     10 |     0.485358 |                         0.440131 | 3.43691e-05 |
+| T-4-15 | T       |        4 |     15 |     0.48572  |                         0.440114 | 5.55112e-17 |
+| T-4-20 | T       |        4 |     20 |     0.485753 |                         0.440115 | 8.97941e-06 |
+| T-4-25 | T       |        4 |     25 |     0.486816 |                         0.440038 | 4.27266e-05 |
+| T-4-30 | T       |        4 |     30 |     0.486615 |                         0.44     | 3.8902e-06  |
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+2024-03-23 13:56:39.997688 - Values 4  - Test 
+[[Model]]
+    Model(fit_model)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 5
+    # data points      = 7
+    # variables        = 3
+    chi-square         = 6.1152e-09
+    reduced chi-square = 1.5288e-09
+    Akaike info crit   = -140.008782
+    Bayesian info crit = -140.171052
+    R-squared          = 0.83579282
+[[Variables]]
+    f0:  0.44021569 +/- 3.4811e-05 (0.01%) (init = 0.4402157)
+    a:   0.00137906 +/- 0.00434407 (315.00%) (init = 0.001378682)
+    c:   0.01332236 +/- 0.05147388 (386.37%) (init = 0.01332679)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a, c)  = -0.9975
+    C(f0, c) = +0.6068
+    C(f0, a) = -0.5581
+2024-03-23 13:56:40.723689 - Summary - Sensor 5  - Test 
+----------------------  -----------------------
+Parameter f0            0.43983811+/-0.00002383
+Parameter a             (0.000+/-9.975)e+05
+Parameter c             0.00000+/-0.07910
+Frequency t = 30 [MHz]  0.44+/-13.66
+Frequency shift [Hz]    -90+/-13657105
+----------------------  -----------------------
+2024-03-23 13:56:40.723689 - Values 5  - Test 
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
+|--------+---------+----------+--------+--------------+----------------------------------+-------------|
+| T-5-0  | T       |        5 |      0 |     0.492474 |                         0.439832 | 4.14683e-05 |
+| T-5-5  | T       |        5 |      5 |     0.492442 |                         0.43983  | 4.09864e-05 |
+| T-5-10 | T       |        5 |     10 |     0.492973 |                         0.439797 | 1.67375e-05 |
+| T-5-15 | T       |        5 |     15 |     0.492967 |                         0.439787 | 3.08025e-05 |
+| T-5-20 | T       |        5 |     20 |     0.492892 |                         0.439796 | 1.88146e-05 |
+| T-5-25 | T       |        5 |     25 |     0.492927 |                         0.439798 | 1.30654e-05 |
+| T-5-30 | T       |        5 |     30 |     0.493196 |                         0.439714 | 2.71635e-06 |
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+2024-03-23 13:56:40.723689 - Values 5  - Test 
+[[Model]]
+    Model(fit_model)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 1694
+    # data points      = 7
+    # variables        = 3
+    chi-square         = 2.9323e-09
+    reduced chi-square = 7.3308e-10
+    Akaike info crit   = -145.153697
+    Bayesian info crit = -145.315966
+    R-squared          = 0.68029727
+[[Variables]]
+    f0:  0.43983811 +/- 2.3835e-05 (0.01%) (init = 0.4398381)
+    a:   9.29473946 +/- 997514.213 (10732029.85%) (init = 0.3109929)
+    c:   7.3029e-07 +/- 0.07910451 (10831884.16%) (init = 2.183209e-05)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a, c)  = -1.0000
+    C(f0, c) = +0.6332
+    C(f0, a) = -0.6332
+2024-03-23 13:56:41.127686 - Summary - Sensor 6  - Test 
+----------------------  -----------------------
+Parameter f0            0.44062593+/-0.00001481
+Parameter a             0.00033894+/-0.00008442
+Parameter c             0.06207+/-0.03658
+Frequency t = 30 [MHz]  0.44049979+/-0.00004306
+Frequency shift [Hz]    -126.140762+/-40.438947
+----------------------  -----------------------
+2024-03-23 13:56:41.127686 - Values 6  - Test 
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
+|--------+---------+----------+--------+--------------+----------------------------------+-------------|
+| T-6-0  | T       |        6 |      0 |     0.494909 |                         0.440618 | 3.50625e-05 |
+| T-6-5  | T       |        6 |      5 |     0.495403 |                         0.440598 | 1.1458e-05  |
+| T-6-10 | T       |        6 |     10 |     0.495628 |                         0.440571 | 4.08157e-05 |
+| T-6-15 | T       |        6 |     15 |     0.495776 |                         0.440515 | 1.11298e-05 |
+| T-6-20 | T       |        6 |     20 |     0.495874 |                         0.440514 | 5.07373e-06 |
+| T-6-25 | T       |        6 |     25 |     0.496261 |                         0.440504 | 2.77381e-05 |
+| T-6-30 | T       |        6 |     30 |     0.496338 |                         0.440511 | 1.43292e-05 |
++--------+---------+----------+--------+--------------+----------------------------------+-------------+
+2024-03-23 13:56:41.127686 - Values 6  - Test 
+[[Model]]
+    Model(fit_model)
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 5
+    # data points      = 7
+    # variables        = 3
+    chi-square         = 9.9087e-10
+    reduced chi-square = 2.4772e-10
+    Akaike info crit   = -152.748419
+    Bayesian info crit = -152.910688
+    R-squared          = 0.92634274
+[[Variables]]
+    f0:  0.44062593 +/- 1.4805e-05 (0.00%) (init = 0.4406259)
+    a:   3.3894e-04 +/- 8.4421e-05 (24.91%) (init = 0.0003389326)
+    c:   0.06206589 +/- 0.03657509 (58.93%) (init = 0.06206819)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(a, c)  = -0.8244
+    C(f0, c) = +0.5291
+
+ 2024-03-23 13:56:41.139212 - Complete shifts list - EXPORTED 
+
+ 2024-03-23 13:56:42.086078 - Bootstrapped list - OK 
+
+ 2024-03-23 13:56:46.734958 - Metrics list - EXPORTED 
+------------  ----------
+Classifier    SVM (Poly)
+Accuracy avg  0.6725
+------------  ----------2024-03-23 13:56:46.759327 - All metrics 
++----+----------------------+-------------------+------------------+------------+-------------+----------+------------+-----------+
+|    | Algorithm            |   CV Avg Accuracy |   CV Acc std dev |   Accuracy |   Precision |   Recall |   F1-Score |   Support |
+|----+----------------------+-------------------+------------------+------------+-------------+----------+------------+-----------|
+|  0 | Logistics Regression |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
+|  1 | Decision Tree        |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
+|  2 | Random Forest        |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
+|  3 | AdaBoost             |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
+|  4 | Gradient Boosting    |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
+|  6 | K-Nearest Neighbors  |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
+|  7 | SVM (SVC)            |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
+|  5 | Naive Bayes          |            0.7585 |       0.00717635 |   0.806667 |    0.860063 | 0.806667 |   0.798597 |       300 |
+|  8 | SVM (RBF)            |            0.6725 |       0.0157321  |   1        |    1        | 1        |   1        |       300 |
+|  9 | SVM (Poly)           |            0.6725 |       0.0157321  |   1        |    1        | 1        |   1        |       300 |
++----+----------------------+-------------------+------------------+------------+-------------+----------+------------+-----------+
+
+ 2024-03-23 13:56:46.769201 - Model file exported. Analysis is complete!
