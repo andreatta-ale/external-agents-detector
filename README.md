@@ -32,7 +32,7 @@ Still to come. An executable python file is under construction.
 
 ## Authors
 
-* **Alessandro Andreatta, BEng** - *master candidate* - andreatta-ale
+* **Alessandro Andreatta, BEng** - *master candidate*
 * **Janete E. Zorzi, PhD** - *academic advisor*
 * **Cesar Aguzzoli, PhD** - *academic co-advisor*
 * **Cláudio Antônio Perottoni, PhD** - *contributor*
