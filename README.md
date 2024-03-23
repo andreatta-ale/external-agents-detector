@@ -2,6 +2,7 @@
 
 This project uses some machine learning algorithms to point the presence or absence of an external agent into de controlled environment.
 To do so, is necessary collect raw data from a network analizer, manipulate and transform it to make it readable and understandable to the classifiers.
+You can have a preview of the script by accessing this *[file](analysis_script.md)*. You'll be able to see analysis outputs and configurations, so that you can know what to expect from the code.
 
 ## Getting Started
 
