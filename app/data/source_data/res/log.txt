@@ -1,8 +1,7 @@
-2024-03-23 13:54:24.430608 - C:/Users/aless/OneDrive/Documentos/UCS/Mestrado/Fase2/Notebooks/Analix/external-agents-detector/app/data/source_data/res2024-03-23 13:54:24.477933 - Address list - OK 
-2024-03-23 13:54:24.662354 - Combined dataset - OK 
-2024-03-23 13:54:24.683910 - Combined and address datasets - EXPORTED 
+2024-03-23 20:17:32.248396 - C:/Users/aless/OneDrive/Documentos/UCS/Mestrado/Fase2/Notebooks/Analix/external-agents-detector/external-agents-detector/app/data/source_data\res2024-03-23 20:17:32.282666 - Address list - OK 
+2024-03-23 20:17:32.384470 - Combined and address datasets - EXPORTED 
 
-2024-03-23 13:54:24.756566 - LMFIT result report C-1-0 
+2024-03-23 20:17:32.456164 - LMFIT result report C-1-0 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -38,16 +37,16 @@
     C(center, intercept)    = +0.3261
     C(amplitude, intercept) = -0.2817
     C(amplitude, slope)     = +0.2739
-    C(sigma, sigma_r)       = -0.26812024-03-23 13:54:28.579567 - Results C-1-0 
----------------------------------------------  ---------------------
-Optimized frequency mean (fmin)                0.4391187126829738
-Optimized frequency standard deviation (fmin)  1.911281649406981e-05
-Optimized frequency standard error (fmin)      6.044003262209469e-07
-Optimized frequency mean with uncertainties    439119+/-19
-Accuracy of estimated frequency mean / SMC     0.9999315899403557
----------------------------------------------  ---------------------
+    C(sigma, sigma_r)       = -0.26812024-03-23 20:17:36.151164 - Results C-1-0 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4391199030496987
+Optimized frequency standard deviation (fmin)  2.1337644445234708e-05
+Optimized frequency standard error (fmin)      6.747555634978163e-07
+Optimized frequency mean with uncertainties    439120+/-21
+Accuracy of estimated frequency mean / SMC     0.9999343005633774
+---------------------------------------------  ----------------------
 
-2024-03-23 13:54:29.181576 - LMFIT result report C-1-5 
+2024-03-23 20:17:36.634166 - LMFIT result report C-1-5 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -83,16 +82,16 @@ Accuracy of estimated frequency mean / SMC     0.9999315899403557
     C(center, intercept)    = +0.3500
     C(amplitude, intercept) = -0.2923
     C(amplitude, slope)     = +0.2846
-    C(sigma, sigma_r)       = -0.27232024-03-23 13:54:32.232563 - Results C-1-5 
+    C(sigma, sigma_r)       = -0.27232024-03-23 20:17:39.712163 - Results C-1-5 
 ---------------------------------------------  ----------------------------------
-Optimized frequency mean (fmin)                0.4391142187500001
-Optimized frequency standard deviation (fmin)  1.1102230246251565e-16
-Optimized frequency standard error (fmin)      3.510833468576701e-18
-Optimized frequency mean with uncertainties    439114.21875000012+/-0.00000000011
+Optimized frequency mean (fmin)                0.43911421875000006
+Optimized frequency standard deviation (fmin)  5.551115123125783e-17
+Optimized frequency standard error (fmin)      1.7554167342883504e-18
+Optimized frequency mean with uncertainties    439114.21875000006+/-0.00000000006
 Accuracy of estimated frequency mean / SMC     1.0000204238617891
 ---------------------------------------------  ----------------------------------
 
-2024-03-23 13:54:32.705564 - LMFIT result report C-1-10 
+2024-03-23 20:17:40.131164 - LMFIT result report C-1-10 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -128,16 +127,16 @@ Accuracy of estimated frequency mean / SMC     1.0000204238617891
     C(center, intercept)    = +0.3329
     C(amplitude, intercept) = -0.2991
     C(amplitude, slope)     = +0.2914
-    C(sigma, sigma_r)       = -0.26792024-03-23 13:54:36.483564 - Results C-1-10 
----------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.43911554663312696
-Optimized frequency standard deviation (fmin)  1.0589815904137346e-05
-Optimized frequency standard error (fmin)      3.348793825894934e-07
-Optimized frequency mean with uncertainties    439116+/-11
-Accuracy of estimated frequency mean / SMC     0.9999403209964861
----------------------------------------------  ----------------------
+    C(sigma, sigma_r)       = -0.26792024-03-23 20:17:43.451163 - Results C-1-10 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.4391153574391593
+Optimized frequency standard deviation (fmin)  9.817411392213743e-06
+Optimized frequency standard error (fmin)      3.104538072628007e-07
+Optimized frequency mean with uncertainties    439115+/-10
+Accuracy of estimated frequency mean / SMC     0.9999398901698433
+---------------------------------------------  ---------------------
 
-2024-03-23 13:54:36.932565 - LMFIT result report C-1-15 
+2024-03-23 20:17:43.875164 - LMFIT result report C-1-15 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -173,16 +172,16 @@ Accuracy of estimated frequency mean / SMC     0.9999403209964861
     C(center, intercept)    = +0.2951
     C(sigma, sigma_r)       = -0.2652
     C(amplitude, intercept) = -0.2624
-    C(amplitude, slope)     = +0.25442024-03-23 13:54:39.995564 - Results C-1-15 
+    C(amplitude, slope)     = +0.25442024-03-23 20:17:46.712162 - Results C-1-15 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4391155949197861
-Optimized frequency standard deviation (fmin)  1.0777556364191742e-05
-Optimized frequency standard error (fmin)      3.408162572168909e-07
-Optimized frequency mean with uncertainties    439116+/-11
-Accuracy of estimated frequency mean / SMC     0.9999449854963193
+Optimized frequency mean (fmin)                0.43911605856233255
+Optimized frequency standard deviation (fmin)  1.2427247974648038e-05
+Optimized frequency standard error (fmin)      3.929840864760223e-07
+Optimized frequency mean with uncertainties    439116+/-12
+Accuracy of estimated frequency mean / SMC     0.9999460412935735
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:54:40.449562 - LMFIT result report C-1-20 
+2024-03-23 20:17:47.136163 - LMFIT result report C-1-20 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -216,16 +215,16 @@ Accuracy of estimated frequency mean / SMC     0.9999449854963193
     C(center, sigma_r)    = -0.4778
     C(center, intercept)  = +0.3733
     C(center, slope)      = -0.3728
-    C(sigma, sigma_r)     = -0.28362024-03-23 13:54:47.395563 - Results C-1-20 
+    C(sigma, sigma_r)     = -0.28362024-03-23 20:17:53.330162 - Results C-1-20 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.43910665491615863
-Optimized frequency standard deviation (fmin)  3.6820658356848716e-05
-Optimized frequency standard error (fmin)      1.1643714535455484e-06
+Optimized frequency mean (fmin)                0.4391065193046075
+Optimized frequency standard deviation (fmin)  3.6739445769401746e-05
+Optimized frequency standard error (fmin)      1.1618032860354681e-06
 Optimized frequency mean with uncertainties    (4.3911+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     0.9999439388341014
+Accuracy of estimated frequency mean / SMC     0.9999436300163072
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:54:47.849563 - LMFIT result report C-1-25 
+2024-03-23 20:17:53.745162 - LMFIT result report C-1-25 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -259,7 +258,7 @@ Accuracy of estimated frequency mean / SMC     0.9999439388341014
     C(center, sigma)      = +0.4608
     C(center, slope)      = -0.3645
     C(center, intercept)  = +0.3639
-    C(sigma, sigma_r)     = -0.28152024-03-23 13:54:48.870565 - Results C-1-25 
+    C(sigma, sigma_r)     = -0.28152024-03-23 20:17:54.720162 - Results C-1-25 
 ---------------------------------------------  ----------------------------------
 Optimized frequency mean (fmin)                0.4391142187500001
 Optimized frequency standard deviation (fmin)  1.1102230246251565e-16
@@ -268,7 +267,7 @@ Optimized frequency mean with uncertainties    439114.21875000012+/-0.0000000001
 Accuracy of estimated frequency mean / SMC     0.9999999255885177
 ---------------------------------------------  ----------------------------------
 
-2024-03-23 13:54:49.348568 - LMFIT result report C-1-30 
+2024-03-23 20:17:55.205165 - LMFIT result report C-1-30 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -304,16 +303,16 @@ Accuracy of estimated frequency mean / SMC     0.9999999255885177
     C(center, intercept)    = +0.3243
     C(sigma, sigma_r)       = -0.2700
     C(amplitude, intercept) = -0.2669
-    C(amplitude, slope)     = +0.25902024-03-23 13:54:51.474564 - Results C-1-30 
+    C(amplitude, slope)     = +0.25902024-03-23 20:17:57.291162 - Results C-1-30 
 ---------------------------------------------  ----------------------------------
-Optimized frequency mean (fmin)                0.4391142187500001
-Optimized frequency standard deviation (fmin)  1.1102230246251565e-16
-Optimized frequency standard error (fmin)      3.510833468576701e-18
-Optimized frequency mean with uncertainties    439114.21875000012+/-0.00000000011
-Accuracy of estimated frequency mean / SMC     0.9999987868201977
+Optimized frequency mean (fmin)                0.43911421875000006
+Optimized frequency standard deviation (fmin)  5.551115123125783e-17
+Optimized frequency standard error (fmin)      1.7554167342883504e-18
+Optimized frequency mean with uncertainties    439114.21875000006+/-0.00000000006
+Accuracy of estimated frequency mean / SMC     0.9999987868201976
 ---------------------------------------------  ----------------------------------
 
-2024-03-23 13:54:52.040567 - LMFIT result report C-15-0 
+2024-03-23 20:17:57.714162 - LMFIT result report C-15-0 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -347,16 +346,16 @@ Accuracy of estimated frequency mean / SMC     0.9999987868201977
     C(center, sigma_r)    = -0.3952
     C(center, intercept)  = +0.2941
     C(center, slope)      = -0.2933
-    C(sigma, sigma_r)     = -0.26862024-03-23 13:54:53.105570 - Results C-15-0 
+    C(sigma, sigma_r)     = -0.26862024-03-23 20:17:58.666166 - Results C-15-0 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4394886112169715
-Optimized frequency standard deviation (fmin)  1.5222586709772523e-05
-Optimized frequency standard error (fmin)      4.813804588228972e-07
-Optimized frequency mean with uncertainties    439489+/-15
-Accuracy of estimated frequency mean / SMC     0.9999677839116982
+Optimized frequency mean (fmin)                0.4394887647026362
+Optimized frequency standard deviation (fmin)  1.5621109062379616e-05
+Optimized frequency standard error (fmin)      4.939828421501687e-07
+Optimized frequency mean with uncertainties    439489+/-16
+Accuracy of estimated frequency mean / SMC     0.9999681331374028
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:54:53.574564 - LMFIT result report C-15-5 
+2024-03-23 20:17:59.084162 - LMFIT result report C-15-5 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -390,16 +389,16 @@ Accuracy of estimated frequency mean / SMC     0.9999677839116982
     C(center, sigma_r)    = -0.3819
     C(sigma, sigma_r)     = -0.2668
     C(center, intercept)  = +0.2626
-    C(center, slope)      = -0.26212024-03-23 13:54:54.575564 - Results C-15-5 
+    C(center, slope)      = -0.26212024-03-23 20:18:00.090162 - Results C-15-5 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.43948417491801206
-Optimized frequency standard deviation (fmin)  1.1768642492477743e-05
-Optimized frequency standard error (fmin)      3.721571524447068e-07
-Optimized frequency mean with uncertainties    439484+/-12
-Accuracy of estimated frequency mean / SMC     1.000030509062966
+Optimized frequency mean (fmin)                0.43948433914974616
+Optimized frequency standard deviation (fmin)  1.1176761932320831e-05
+Optimized frequency standard error (fmin)      3.534402457159853e-07
+Optimized frequency mean with uncertainties    439484+/-11
+Accuracy of estimated frequency mean / SMC     1.0000308827663984
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:54:55.034566 - LMFIT result report C-15-10 
+2024-03-23 20:18:00.510162 - LMFIT result report C-15-10 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -433,16 +432,16 @@ Accuracy of estimated frequency mean / SMC     1.000030509062966
     C(center, sigma)      = +0.3924
     C(sigma, sigma_r)     = -0.2688
     C(center, slope)      = -0.2660
-    C(center, intercept)  = +0.26572024-03-23 13:54:58.936566 - Results C-15-10 
+    C(center, intercept)  = +0.26572024-03-23 20:18:04.105162 - Results C-15-10 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4394784220096982
-Optimized frequency standard deviation (fmin)  2.4087128804973484e-05
-Optimized frequency standard error (fmin)      7.617018931756592e-07
-Optimized frequency mean with uncertainties    439478+/-24
-Accuracy of estimated frequency mean / SMC     1.0000162806616057
+Optimized frequency mean (fmin)                0.43947723828124996
+Optimized frequency standard deviation (fmin)  2.5746093749995367e-05
+Optimized frequency standard error (fmin)      8.141629710221109e-07
+Optimized frequency mean with uncertainties    439477+/-26
+Accuracy of estimated frequency mean / SMC     1.0000135871329572
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:54:59.384564 - LMFIT result report C-15-15 
+2024-03-23 20:18:04.524165 - LMFIT result report C-15-15 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -476,16 +475,16 @@ Accuracy of estimated frequency mean / SMC     1.0000162806616057
     C(center, sigma)        = +0.3240
     C(amplitude, intercept) = -0.3066
     C(amplitude, slope)     = +0.2987
-    C(sigma, sigma_r)       = -0.25372024-03-23 13:55:00.605565 - Results C-15-15 
----------------------------------------------  ---------------------
-Optimized frequency mean (fmin)                0.43944361646547236
-Optimized frequency standard deviation (fmin)  3.288621568940545e-05
-Optimized frequency standard error (fmin)      1.039953452020857e-06
-Optimized frequency mean with uncertainties    439444+/-33
-Accuracy of estimated frequency mean / SMC     0.9999735375576956
----------------------------------------------  ---------------------
+    C(sigma, sigma_r)       = -0.25372024-03-23 20:18:05.598164 - Results C-15-15 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4394424736107545
+Optimized frequency standard deviation (fmin)  3.1892383422642756e-05
+Optimized frequency standard error (fmin)      1.0085257162694756e-06
+Optimized frequency mean with uncertainties    439442+/-32
+Accuracy of estimated frequency mean / SMC     0.999970936940842
+---------------------------------------------  ----------------------
 
-2024-03-23 13:55:01.142564 - LMFIT result report C-15-20 
+2024-03-23 20:18:06.036165 - LMFIT result report C-15-20 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -519,16 +518,16 @@ Accuracy of estimated frequency mean / SMC     0.9999735375576956
     C(center, sigma_r)    = -0.4133
     C(center, intercept)  = +0.2724
     C(center, slope)      = -0.2723
-    C(sigma, sigma_r)     = -0.27002024-03-23 13:55:02.536564 - Results C-15-20 
+    C(sigma, sigma_r)     = -0.27002024-03-23 20:18:07.197163 - Results C-15-20 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4394691605456453
-Optimized frequency standard deviation (fmin)  3.39440505242453e-05
-Optimized frequency standard error (fmin)      1.0734051266844769e-06
-Optimized frequency mean with uncertainties    439469+/-34
-Accuracy of estimated frequency mean / SMC     1.0000338945830647
+Optimized frequency mean (fmin)                0.4394704761402027
+Optimized frequency standard deviation (fmin)  3.2884617043814914e-05
+Optimized frequency standard error (fmin)      1.0399028984084824e-06
+Optimized frequency mean with uncertainties    439470+/-33
+Accuracy of estimated frequency mean / SMC     1.0000368882837998
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:55:03.023568 - LMFIT result report C-15-25 
+2024-03-23 20:18:07.699163 - LMFIT result report C-15-25 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -562,16 +561,16 @@ Accuracy of estimated frequency mean / SMC     1.0000338945830647
     C(center, sigma)      = +0.4688
     C(center, slope)      = -0.3485
     C(center, intercept)  = +0.3484
-    C(sigma, sigma_r)     = -0.28172024-03-23 13:55:05.968567 - Results C-15-25 
+    C(sigma, sigma_r)     = -0.28172024-03-23 20:18:10.435166 - Results C-15-25 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.43945003335615873
-Optimized frequency standard deviation (fmin)  4.231479094193291e-05
-Optimized frequency standard error (fmin)      1.3381111809036974e-06
+Optimized frequency mean (fmin)                0.4394506965024835
+Optimized frequency standard deviation (fmin)  4.219779996317001e-05
+Optimized frequency standard error (fmin)      1.3344116013178658e-06
 Optimized frequency mean with uncertainties    (4.3945+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     1.0000006107174984
+Accuracy of estimated frequency mean / SMC     1.0000021197553397
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:55:06.522566 - LMFIT result report C-15-30 
+2024-03-23 20:18:10.843164 - LMFIT result report C-15-30 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -605,16 +604,16 @@ Accuracy of estimated frequency mean / SMC     1.0000006107174984
     C(center, sigma_r)    = -0.4539
     C(center, intercept)  = +0.3236
     C(center, slope)      = -0.3235
-    C(sigma, sigma_r)     = -0.27772024-03-23 13:55:09.140564 - Results C-15-30 
+    C(sigma, sigma_r)     = -0.27772024-03-23 20:18:13.236167 - Results C-15-30 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.43946103739754094
-Optimized frequency standard deviation (fmin)  3.889324661914108e-05
-Optimized frequency standard error (fmin)      1.2299124491512918e-06
+Optimized frequency mean (fmin)                0.43946347910474026
+Optimized frequency standard deviation (fmin)  3.765899450864658e-05
+Optimized frequency standard error (fmin)      1.1908819703909677e-06
 Optimized frequency mean with uncertainties    (4.3946+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     1.0000108583523584
+Accuracy of estimated frequency mean / SMC     1.0000164145530326
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:55:09.590567 - LMFIT result report C-2-0 
+2024-03-23 20:18:13.651168 - LMFIT result report C-2-0 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -650,16 +649,16 @@ Accuracy of estimated frequency mean / SMC     1.0000108583523584
     C(center, intercept)    = -0.3972
     C(center, slope)        = +0.3945
     C(center, sigma)        = -0.3415
-    C(center, sigma_r)      = -0.30322024-03-23 13:55:10.986568 - Results C-2-0 
+    C(center, sigma_r)      = -0.30322024-03-23 20:18:15.115162 - Results C-2-0 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4406875138742071
-Optimized frequency standard deviation (fmin)  4.218266532679913e-05
-Optimized frequency standard error (fmin)      1.3339330020929618e-06
+Optimized frequency mean (fmin)                0.4406876672654555
+Optimized frequency standard deviation (fmin)  4.160903842809674e-05
+Optimized frequency standard error (fmin)      1.3157933268225794e-06
 Optimized frequency mean with uncertainties    (4.4069+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     0.9999926587959762
+Accuracy of estimated frequency mean / SMC     0.9999930068660201
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:55:11.462566 - LMFIT result report C-2-5 
+2024-03-23 20:18:15.555162 - LMFIT result report C-2-5 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -688,16 +687,16 @@ Accuracy of estimated frequency mean / SMC     0.9999926587959762
     C(sigma_r, slope)     = +0.6998
     C(sigma_r, intercept) = -0.6936
     C(amplitude, sigma)   = -0.6747
-    C(amplitude, sigma_r) = -0.56232024-03-23 13:55:12.912568 - Results C-2-5 
+    C(amplitude, sigma_r) = -0.56232024-03-23 20:18:16.686162 - Results C-2-5 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.440675094037829
-Optimized frequency standard deviation (fmin)  3.4147720515251754e-05
-Optimized frequency standard error (fmin)      1.079845737310541e-06
-Optimized frequency mean with uncertainties    440675+/-34
-Accuracy of estimated frequency mean / SMC     1.0000030105288527
+Optimized frequency mean (fmin)                0.440674640179728
+Optimized frequency standard deviation (fmin)  3.289682185266006e-05
+Optimized frequency standard error (fmin)      1.0402888483520587e-06
+Optimized frequency mean with uncertainties    440675+/-33
+Accuracy of estimated frequency mean / SMC     1.0000019806102722
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:55:13.419564 - LMFIT result report C-2-10 
+2024-03-23 20:18:17.121165 - LMFIT result report C-2-10 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -731,16 +730,16 @@ Accuracy of estimated frequency mean / SMC     1.0000030105288527
     C(center, slope)        = +0.5691
     C(center, sigma)        = -0.5483
     C(center, sigma_r)      = -0.4729
-    C(amplitude, sigma_r)   = -0.45712024-03-23 13:55:18.763567 - Results C-2-10 
----------------------------------------------  ---------------------
-Optimized frequency mean (fmin)                0.4406612506975446
-Optimized frequency standard deviation (fmin)  4.388799585031415e-05
-Optimized frequency standard error (fmin)      1.38786028827011e-06
+    C(amplitude, sigma_r)   = -0.45712024-03-23 20:18:22.227164 - Results C-2-10 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.44065743190940354
+Optimized frequency standard deviation (fmin)  4.212764479599167e-05
+Optimized frequency standard error (fmin)      1.3321931001387314e-06
 Optimized frequency mean with uncertainties    (4.4066+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     0.9999466789413879
----------------------------------------------  ---------------------
+Accuracy of estimated frequency mean / SMC     0.999938013363207
+---------------------------------------------  ----------------------
 
-2024-03-23 13:55:19.226565 - LMFIT result report C-2-15 
+2024-03-23 20:18:22.662164 - LMFIT result report C-2-15 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -777,16 +776,16 @@ Accuracy of estimated frequency mean / SMC     0.9999466789413879
     C(center, sigma_r)      = -0.6958
     C(sigma, sigma_r)       = +0.5255
     C(sigma_r, intercept)   = +0.4161
-    C(sigma_r, slope)       = -0.41142024-03-23 13:55:26.058566 - Results C-2-15 
+    C(sigma_r, slope)       = -0.41142024-03-23 20:18:28.965162 - Results C-2-15 
 ---------------------------------------------  ---------------------
-Optimized frequency mean (fmin)                0.44064435720640566
-Optimized frequency standard deviation (fmin)  5.278338684390515e-05
-Optimized frequency standard error (fmin)      1.669157250445068e-06
+Optimized frequency mean (fmin)                0.44064313167259783
+Optimized frequency standard deviation (fmin)  5.462053084310055e-05
+Optimized frequency standard error (fmin)      1.727252844716748e-06
 Optimized frequency mean with uncertainties    (4.4064+/-0.0005)e+05
-Accuracy of estimated frequency mean / SMC     0.9998640965713876
+Accuracy of estimated frequency mean / SMC     0.9998613157182267
 ---------------------------------------------  ---------------------
 
-2024-03-23 13:55:26.539564 - LMFIT result report C-2-20 
+2024-03-23 20:18:29.474164 - LMFIT result report C-2-20 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -822,16 +821,16 @@ Accuracy of estimated frequency mean / SMC     0.9998640965713876
     C(center, slope)        = +0.3818
     C(center, sigma)        = -0.3471
     C(sigma_r, slope)       = +0.3016
-    C(sigma_r, intercept)   = -0.29482024-03-23 13:55:29.351565 - Results C-2-20 
+    C(sigma_r, intercept)   = -0.29482024-03-23 20:18:31.918162 - Results C-2-20 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4406258077296248
-Optimized frequency standard deviation (fmin)  3.3862007604181894e-05
-Optimized frequency standard error (fmin)      1.070810701751562e-06
-Optimized frequency mean with uncertainties    440626+/-34
-Accuracy of estimated frequency mean / SMC     0.9999740466905362
+Optimized frequency mean (fmin)                0.440626175736692
+Optimized frequency standard deviation (fmin)  3.3112818002064296e-05
+Optimized frequency standard error (fmin)      1.0471192463314927e-06
+Optimized frequency mean with uncertainties    440626+/-33
+Accuracy of estimated frequency mean / SMC     0.9999748818606733
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:55:29.958565 - LMFIT result report C-2-25 
+2024-03-23 20:18:32.340163 - LMFIT result report C-2-25 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -864,16 +863,16 @@ Accuracy of estimated frequency mean / SMC     0.9999740466905362
     C(amplitude, slope)     = +0.4590
     C(amplitude, sigma_r)   = -0.4583
     C(center, sigma_r)      = -0.3194
-    C(amplitude, center)    = +0.31182024-03-23 13:55:33.306569 - Results C-2-25 
+    C(amplitude, center)    = +0.31182024-03-23 20:18:35.436162 - Results C-2-25 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.44064666954357967
-Optimized frequency standard deviation (fmin)  4.3120019381645445e-05
-Optimized frequency standard error (fmin)      1.3635747399660492e-06
-Optimized frequency mean with uncertainties    (4.4065+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     0.9999782232008675
+Optimized frequency mean (fmin)                0.4406440080239495
+Optimized frequency standard deviation (fmin)  4.30161664554997e-05
+Optimized frequency standard error (fmin)      1.3602906220831113e-06
+Optimized frequency mean with uncertainties    (4.4064+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     0.9999721833012047
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:55:33.758566 - LMFIT result report C-2-30 
+2024-03-23 20:18:35.867163 - LMFIT result report C-2-30 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -908,16 +907,16 @@ Accuracy of estimated frequency mean / SMC     0.9999782232008675
     C(amplitude, intercept) = -0.3355
     C(amplitude, slope)     = +0.3261
     C(center, sigma)        = -0.2988
-    C(amplitude, center)    = +0.28862024-03-23 13:55:35.701564 - Results C-2-30 
+    C(amplitude, center)    = +0.28862024-03-23 20:18:37.468162 - Results C-2-30 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4406159942007554
-Optimized frequency standard deviation (fmin)  4.81623600877287e-05
-Optimized frequency standard error (fmin)      1.5230275536640967e-06
+Optimized frequency mean (fmin)                0.4406170584596484
+Optimized frequency standard deviation (fmin)  4.505399616335397e-05
+Optimized frequency standard error (fmin)      1.4247324556868613e-06
 Optimized frequency mean with uncertainties    (4.4062+/-0.0005)e+05
-Accuracy of estimated frequency mean / SMC     0.9999778306755259
+Accuracy of estimated frequency mean / SMC     0.9999802460106773
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:55:36.179573 - LMFIT result report T-4-0 
+2024-03-23 20:18:37.904164 - LMFIT result report T-4-0 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -951,16 +950,16 @@ Accuracy of estimated frequency mean / SMC     0.9999778306755259
     C(center, sigma_r)    = -0.4236
     C(center, intercept)  = +0.2932
     C(center, slope)      = -0.2930
-    C(sigma, sigma_r)     = -0.27272024-03-23 13:55:38.122563 - Results T-4-0 
+    C(sigma, sigma_r)     = -0.27272024-03-23 20:18:39.795162 - Results T-4-0 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.44024926967394395
-Optimized frequency standard deviation (fmin)  4.252689067699988e-05
-Optimized frequency standard error (fmin)      1.3448183634429964e-06
+Optimized frequency mean (fmin)                0.44025120954241065
+Optimized frequency standard deviation (fmin)  4.2194824205793855e-05
+Optimized frequency standard error (fmin)      1.334317499607139e-06
 Optimized frequency mean with uncertainties    (4.4025+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     1.0000045541395302
+Accuracy of estimated frequency mean / SMC     1.0000089604553033
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:55:38.582562 - LMFIT result report T-4-5 
+2024-03-23 20:18:40.213163 - LMFIT result report T-4-5 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -994,16 +993,16 @@ Accuracy of estimated frequency mean / SMC     1.0000045541395302
     C(center, sigma)      = +0.3860
     C(sigma, sigma_r)     = -0.2673
     C(center, slope)      = -0.2606
-    C(center, intercept)  = +0.26012024-03-23 13:55:39.597567 - Results T-4-5 
----------------------------------------------  ---------------------
-Optimized frequency mean (fmin)                0.4401230047619803
-Optimized frequency standard deviation (fmin)  2.629675295712719e-05
-Optimized frequency standard error (fmin)      8.315763441129009e-07
-Optimized frequency mean with uncertainties    440123+/-26
-Accuracy of estimated frequency mean / SMC     0.9999574014206575
----------------------------------------------  ---------------------
+    C(center, intercept)  = +0.26012024-03-23 20:18:41.289162 - Results T-4-5 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4401213499823537
+Optimized frequency standard deviation (fmin)  2.4004851218661884e-05
+Optimized frequency standard error (fmin)      7.591000474444018e-07
+Optimized frequency mean with uncertainties    440121+/-24
+Accuracy of estimated frequency mean / SMC     0.9999536417691113
+---------------------------------------------  ----------------------
 
-2024-03-23 13:55:40.051562 - LMFIT result report T-4-10 
+2024-03-23 20:18:41.694166 - LMFIT result report T-4-10 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1037,16 +1036,16 @@ Accuracy of estimated frequency mean / SMC     0.9999574014206575
     C(center, sigma)        = +0.3116
     C(amplitude, intercept) = -0.2816
     C(amplitude, slope)     = +0.2735
-    C(sigma, sigma_r)       = -0.25272024-03-23 13:55:44.099565 - Results T-4-10 
----------------------------------------------  ---------------------
-Optimized frequency mean (fmin)                0.44013119013883106
-Optimized frequency standard deviation (fmin)  3.436914801566465e-05
-Optimized frequency standard error (fmin)      1.086847889689567e-06
-Optimized frequency mean with uncertainties    440131+/-34
-Accuracy of estimated frequency mean / SMC     0.9999464612470425
----------------------------------------------  ---------------------
+    C(sigma, sigma_r)       = -0.25272024-03-23 20:18:45.684164 - Results T-4-10 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.440133650114459
+Optimized frequency standard deviation (fmin)  3.608639313905173e-05
+Optimized frequency standard error (fmin)      1.1411519485967677e-06
+Optimized frequency mean with uncertainties    (4.4013+/-0.0004)e+05
+Accuracy of estimated frequency mean / SMC     0.9999520501350354
+---------------------------------------------  ----------------------
 
-2024-03-23 13:55:44.533564 - LMFIT result report T-4-15 
+2024-03-23 20:18:46.178162 - LMFIT result report T-4-15 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1080,16 +1079,16 @@ Accuracy of estimated frequency mean / SMC     0.9999464612470425
     C(center, sigma)      = +0.3965
     C(center, slope)      = -0.2695
     C(center, intercept)  = +0.2691
-    C(sigma, sigma_r)     = -0.26892024-03-23 13:55:45.473564 - Results T-4-15 
+    C(sigma, sigma_r)     = -0.26892024-03-23 20:18:47.119162 - Results T-4-15 
 ---------------------------------------------  ----------------------------------
-Optimized frequency mean (fmin)                0.4401140234375
-Optimized frequency standard deviation (fmin)  5.551115123125783e-17
-Optimized frequency standard error (fmin)      1.7554167342883504e-18
-Optimized frequency mean with uncertainties    440114.02343750000+/-0.00000000006
-Accuracy of estimated frequency mean / SMC     1.0000006181637398
+Optimized frequency mean (fmin)                0.44011402343750006
+Optimized frequency standard deviation (fmin)  1.1102230246251565e-16
+Optimized frequency standard error (fmin)      3.510833468576701e-18
+Optimized frequency mean with uncertainties    440114.02343750006+/-0.00000000011
+Accuracy of estimated frequency mean / SMC     1.00000061816374
 ---------------------------------------------  ----------------------------------
 
-2024-03-23 13:55:45.996564 - LMFIT result report T-4-20 
+2024-03-23 20:18:47.528164 - LMFIT result report T-4-20 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1122,16 +1121,16 @@ Accuracy of estimated frequency mean / SMC     1.0000006181637398
     C(center, sigma_r)      = -0.4736
     C(center, sigma)        = +0.3380
     C(sigma, sigma_r)       = -0.2583
-    C(amplitude, intercept) = -0.25432024-03-23 13:55:48.404564 - Results T-4-20 
----------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4401149717084099
-Optimized frequency standard deviation (fmin)  8.979412866979466e-06
-Optimized frequency standard error (fmin)      2.8395396710677664e-07
-Optimized frequency mean with uncertainties    440115+/-9
-Accuracy of estimated frequency mean / SMC     0.9999482387803087
----------------------------------------------  ----------------------
+    C(amplitude, intercept) = -0.25432024-03-23 20:18:49.685162 - Results T-4-20 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.4401153700583585
+Optimized frequency standard deviation (fmin)  1.067541309096062e-05
+Optimized frequency standard error (fmin)      3.375862033061384e-07
+Optimized frequency mean with uncertainties    440115+/-11
+Accuracy of estimated frequency mean / SMC     0.9999491438377485
+---------------------------------------------  ---------------------
 
-2024-03-23 13:55:48.866567 - LMFIT result report T-4-25 
+2024-03-23 20:18:50.102165 - LMFIT result report T-4-25 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1163,16 +1162,16 @@ Accuracy of estimated frequency mean / SMC     0.9999482387803087
     C(amplitude, sigma_r) = -0.5977
     C(center, sigma_r)    = -0.3909
     C(center, sigma)      = +0.3750
-    C(sigma, sigma_r)     = -0.26332024-03-23 13:55:52.199564 - Results T-4-25 
----------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.44003841332378224
-Optimized frequency standard deviation (fmin)  4.27265908836397e-05
-Optimized frequency standard error (fmin)      1.3511334384648778e-06
+    C(sigma, sigma_r)     = -0.26332024-03-23 20:18:53.384164 - Results T-4-25 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.44003843245967744
+Optimized frequency standard deviation (fmin)  4.272862678196768e-05
+Optimized frequency standard error (fmin)      1.351197819222887e-06
 Optimized frequency mean with uncertainties    (4.4004+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     0.9999821580063017
----------------------------------------------  ----------------------
+Accuracy of estimated frequency mean / SMC     0.9999822014924002
+---------------------------------------------  ---------------------
 
-2024-03-23 13:55:52.624564 - LMFIT result report T-4-30 
+2024-03-23 20:18:53.796162 - LMFIT result report T-4-30 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1206,16 +1205,16 @@ Accuracy of estimated frequency mean / SMC     0.9999821580063017
     C(center, sigma)      = +0.4020
     C(center, slope)      = -0.2826
     C(center, intercept)  = +0.2822
-    C(sigma, sigma_r)     = -0.27042024-03-23 13:55:57.600565 - Results T-4-30 
----------------------------------------------  ---------------------
-Optimized frequency mean (fmin)                0.4400001764630392
-Optimized frequency standard deviation (fmin)  3.890199636415491e-06
-Optimized frequency standard error (fmin)      1.230189140383186e-07
-Optimized frequency mean with uncertainties    440000+/-4
-Accuracy of estimated frequency mean / SMC     0.9999407168038841
----------------------------------------------  ---------------------
+    C(sigma, sigma_r)     = -0.27042024-03-23 20:18:58.469162 - Results T-4-30 
+---------------------------------------------  ----------------------------------
+Optimized frequency mean (fmin)                0.44000000000000017
+Optimized frequency standard deviation (fmin)  1.6653345369377348e-16
+Optimized frequency standard error (fmin)      5.266250202865052e-18
+Optimized frequency mean with uncertainties    440000.00000000017+/-0.00000000017
+Accuracy of estimated frequency mean / SMC     0.9999403157754592
+---------------------------------------------  ----------------------------------
 
-2024-03-23 13:55:58.032563 - LMFIT result report T-5-0 
+2024-03-23 20:18:58.882165 - LMFIT result report T-5-0 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1249,16 +1248,16 @@ Accuracy of estimated frequency mean / SMC     0.9999407168038841
     C(center, sigma_r)    = -0.4295
     C(center, intercept)  = +0.2872
     C(center, slope)      = -0.2871
-    C(sigma, sigma_r)     = -0.27222024-03-23 13:55:59.890568 - Results T-5-0 
+    C(sigma, sigma_r)     = -0.27222024-03-23 20:19:00.487164 - Results T-5-0 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.43983176802548873
-Optimized frequency standard deviation (fmin)  4.146825663675797e-05
-Optimized frequency standard error (fmin)      1.3113414156854886e-06
+Optimized frequency mean (fmin)                0.43982942640486417
+Optimized frequency standard deviation (fmin)  4.0764799715507945e-05
+Optimized frequency standard error (fmin)      1.2890961546158909e-06
 Optimized frequency mean with uncertainties    (4.3983+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     0.9999829576358487
+Accuracy of estimated frequency mean / SMC     0.9999776338259558
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:56:00.369567 - LMFIT result report T-5-5 
+2024-03-23 20:19:00.905163 - LMFIT result report T-5-5 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1292,16 +1291,16 @@ Accuracy of estimated frequency mean / SMC     0.9999829576358487
     C(center, sigma)      = +0.4115
     C(center, slope)      = -0.2779
     C(center, intercept)  = +0.2778
-    C(sigma, sigma_r)     = -0.27072024-03-23 13:56:02.366564 - Results T-5-5 
+    C(sigma, sigma_r)     = -0.27072024-03-23 20:19:02.687163 - Results T-5-5 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.43983011382004306
-Optimized frequency standard deviation (fmin)  4.098643594252513e-05
-Optimized frequency standard error (fmin)      1.2961049075096954e-06
+Optimized frequency mean (fmin)                0.439829512318686
+Optimized frequency standard deviation (fmin)  4.0793199285003065e-05
+Optimized frequency standard error (fmin)      1.289994227857619e-06
 Optimized frequency mean with uncertainties    (4.3983+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     0.9999780598364565
+Accuracy of estimated frequency mean / SMC     0.9999766922898945
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:56:02.909565 - LMFIT result report T-5-10 
+2024-03-23 20:19:03.181162 - LMFIT result report T-5-10 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1335,16 +1334,16 @@ Accuracy of estimated frequency mean / SMC     0.9999780598364565
     C(center, sigma)      = +0.3969
     C(center, slope)      = -0.2779
     C(center, intercept)  = +0.2775
-    C(sigma, sigma_r)     = -0.26942024-03-23 13:56:04.365565 - Results T-5-10 
----------------------------------------------  --------------------
-Optimized frequency mean (fmin)                0.4397966044421074
-Optimized frequency standard deviation (fmin)  1.67374820094131e-05
-Optimized frequency standard error (fmin)      5.29285654458372e-07
-Optimized frequency mean with uncertainties    439797+/-17
-Accuracy of estimated frequency mean / SMC     1.0000394436890832
----------------------------------------------  --------------------
+    C(sigma, sigma_r)     = -0.26942024-03-23 20:19:04.723163 - Results T-5-10 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.43979548398138
+Optimized frequency standard deviation (fmin)  1.917092900716468e-05
+Optimized frequency standard error (fmin)      6.062380052403085e-07
+Optimized frequency mean with uncertainties    439795+/-19
+Accuracy of estimated frequency mean / SMC     1.0000368959092432
+---------------------------------------------  ---------------------
 
-2024-03-23 13:56:04.921563 - LMFIT result report T-5-15 
+2024-03-23 20:19:05.141164 - LMFIT result report T-5-15 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1378,16 +1377,16 @@ Accuracy of estimated frequency mean / SMC     1.0000394436890832
     C(center, sigma)      = +0.4420
     C(center, slope)      = -0.3451
     C(center, intercept)  = +0.3445
-    C(sigma, sigma_r)     = -0.27832024-03-23 13:56:08.184567 - Results T-5-15 
----------------------------------------------  ---------------------
-Optimized frequency mean (fmin)                0.43978698139828254
-Optimized frequency standard deviation (fmin)  3.080249267972831e-05
-Optimized frequency standard error (fmin)      9.740603447860488e-07
-Optimized frequency mean with uncertainties    439787+/-31
-Accuracy of estimated frequency mean / SMC     1.0000357555713684
----------------------------------------------  ---------------------
+    C(sigma, sigma_r)     = -0.27832024-03-23 20:19:08.282162 - Results T-5-15 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4397898727694425
+Optimized frequency standard deviation (fmin)  2.7701127816909805e-05
+Optimized frequency standard error (fmin)      8.759865765688275e-07
+Optimized frequency mean with uncertainties    439790+/-28
+Accuracy of estimated frequency mean / SMC     1.000042330287458
+---------------------------------------------  ----------------------
 
-2024-03-23 13:56:08.696568 - LMFIT result report T-5-20 
+2024-03-23 20:19:08.700163 - LMFIT result report T-5-20 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1421,16 +1420,16 @@ Accuracy of estimated frequency mean / SMC     1.0000357555713684
     C(center, sigma)      = +0.4426
     C(center, slope)      = -0.3408
     C(center, intercept)  = +0.3403
-    C(sigma, sigma_r)     = -0.27832024-03-23 13:56:10.803566 - Results T-5-20 
----------------------------------------------  ---------------------
-Optimized frequency mean (fmin)                0.4397956596559195
-Optimized frequency standard deviation (fmin)  1.881462696918998e-05
-Optimized frequency standard error (fmin)      5.949707454907098e-07
-Optimized frequency mean with uncertainties    439796+/-19
-Accuracy of estimated frequency mean / SMC     1.0000475292858824
----------------------------------------------  ---------------------
+    C(sigma, sigma_r)     = -0.27832024-03-23 20:19:10.776162 - Results T-5-20 
+---------------------------------------------  ----------------------
+Optimized frequency mean (fmin)                0.4397961187388525
+Optimized frequency standard deviation (fmin)  1.7841807083372198e-05
+Optimized frequency standard error (fmin)      5.642074795678185e-07
+Optimized frequency mean with uncertainties    439796+/-18
+Accuracy of estimated frequency mean / SMC     1.000048573190575
+---------------------------------------------  ----------------------
 
-2024-03-23 13:56:11.302565 - LMFIT result report T-5-25 
+2024-03-23 20:19:11.185165 - LMFIT result report T-5-25 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1466,16 +1465,16 @@ Accuracy of estimated frequency mean / SMC     1.0000475292858824
     C(center, intercept)    = +0.2877
     C(amplitude, intercept) = -0.2786
     C(amplitude, slope)     = +0.2706
-    C(sigma, sigma_r)       = -0.26152024-03-23 13:56:18.592566 - Results T-5-25 
----------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4397979644920023
-Optimized frequency standard deviation (fmin)  1.3065361216086579e-05
-Optimized frequency standard error (fmin)      4.131629989566096e-07
-Optimized frequency mean with uncertainties    439798+/-13
-Accuracy of estimated frequency mean / SMC     1.0000141096688495
----------------------------------------------  ----------------------
+    C(sigma, sigma_r)       = -0.26152024-03-23 20:19:18.392166 - Results T-5-25 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.4397988844358765
+Optimized frequency standard deviation (fmin)  9.725262557677542e-06
+Optimized frequency standard error (fmin)      3.075398052541569e-07
+Optimized frequency mean with uncertainties    439799+/-10
+Accuracy of estimated frequency mean / SMC     1.0000162014403642
+---------------------------------------------  ---------------------
 
-2024-03-23 13:56:19.063565 - LMFIT result report T-5-30 
+2024-03-23 20:19:18.830163 - LMFIT result report T-5-30 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1509,16 +1508,16 @@ Accuracy of estimated frequency mean / SMC     1.0000141096688495
     C(center, sigma_r)    = -0.4556
     C(center, intercept)  = +0.3341
     C(center, slope)      = -0.3340
-    C(sigma, sigma_r)     = -0.27942024-03-23 13:56:20.028568 - Results T-5-30 
----------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.439714187546922
-Optimized frequency standard deviation (fmin)  2.7163457386021763e-06
-Optimized frequency standard error (fmin)      8.589839446475239e-08
-Optimized frequency mean with uncertainties    439714.2+/-2.7
-Accuracy of estimated frequency mean / SMC     0.999986208326197
----------------------------------------------  ----------------------
+    C(sigma, sigma_r)     = -0.27942024-03-23 20:19:19.889163 - Results T-5-30 
+---------------------------------------------  ----------------------------------
+Optimized frequency mean (fmin)                0.4397141015625001
+Optimized frequency standard deviation (fmin)  1.6653345369377348e-16
+Optimized frequency standard error (fmin)      5.266250202865052e-18
+Optimized frequency mean with uncertainties    439714.10156250012+/-0.00000000017
+Accuracy of estimated frequency mean / SMC     0.9999860127827317
+---------------------------------------------  ----------------------------------
 
-2024-03-23 13:56:20.488565 - LMFIT result report T-6-0 
+2024-03-23 20:19:20.304162 - LMFIT result report T-6-0 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1552,16 +1551,16 @@ Accuracy of estimated frequency mean / SMC     0.999986208326197
     C(center, sigma)      = +0.4794
     C(center, slope)      = -0.3803
     C(center, intercept)  = +0.3799
-    C(sigma, sigma_r)     = -0.28602024-03-23 13:56:24.454563 - Results T-6-0 
+    C(sigma, sigma_r)     = -0.28602024-03-23 20:19:24.258165 - Results T-6-0 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4406180879279458
-Optimized frequency standard deviation (fmin)  3.5062484930891135e-05
-Optimized frequency standard error (fmin)      1.1087731280694747e-06
-Optimized frequency mean with uncertainties    440618+/-35
-Accuracy of estimated frequency mean / SMC     0.9999553468856976
+Optimized frequency mean (fmin)                0.44061599734575313
+Optimized frequency standard deviation (fmin)  3.347732842498068e-05
+Optimized frequency standard error (fmin)      1.0586460780043628e-06
+Optimized frequency mean with uncertainties    440616+/-33
+Accuracy of estimated frequency mean / SMC     0.9999506024394325
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:56:24.962564 - LMFIT result report T-6-5 
+2024-03-23 20:19:24.686162 - LMFIT result report T-6-5 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1595,16 +1594,16 @@ Accuracy of estimated frequency mean / SMC     0.9999553468856976
     C(center, sigma_r)    = -0.4765
     C(center, intercept)  = +0.3628
     C(center, slope)      = -0.3626
-    C(sigma, sigma_r)     = -0.28342024-03-23 13:56:25.913563 - Results T-6-5 
+    C(sigma, sigma_r)     = -0.28342024-03-23 20:19:25.648163 - Results T-6-5 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.44059844635468903
-Optimized frequency standard deviation (fmin)  1.1457951298813822e-05
-Optimized frequency standard error (fmin)      3.623322342353622e-07
-Optimized frequency mean with uncertainties    440598+/-11
-Accuracy of estimated frequency mean / SMC     1.000031067526913
+Optimized frequency mean (fmin)                0.44059783564669264
+Optimized frequency standard deviation (fmin)  1.3474729023772177e-05
+Optimized frequency standard error (fmin)      4.2610834568697233e-07
+Optimized frequency mean with uncertainties    440598+/-13
+Accuracy of estimated frequency mean / SMC     1.0000296813963567
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:56:26.515567 - LMFIT result report T-6-10 
+2024-03-23 20:19:26.171167 - LMFIT result report T-6-10 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1638,16 +1637,16 @@ Accuracy of estimated frequency mean / SMC     1.000031067526913
     C(center, sigma)      = +0.4358
     C(center, slope)      = -0.3278
     C(center, intercept)  = +0.3274
-    C(sigma, sigma_r)     = -0.27682024-03-23 13:56:28.323566 - Results T-6-10 
+    C(sigma, sigma_r)     = -0.27682024-03-23 20:19:27.902164 - Results T-6-10 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.44057059010130484
-Optimized frequency standard deviation (fmin)  4.0815652639108326e-05
-Optimized frequency standard error (fmin)      1.290704265258448e-06
+Optimized frequency mean (fmin)                0.440570379376406
+Optimized frequency standard deviation (fmin)  4.088535391601142e-05
+Optimized frequency standard error (fmin)      1.2929084131668067e-06
 Optimized frequency mean with uncertainties    (4.4057+/-0.0004)e+05
-Accuracy of estimated frequency mean / SMC     1.000013241244497
+Accuracy of estimated frequency mean / SMC     1.0000127629381963
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:56:28.784563 - LMFIT result report T-6-15 
+2024-03-23 20:19:28.314163 - LMFIT result report T-6-15 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1681,16 +1680,16 @@ Accuracy of estimated frequency mean / SMC     1.000013241244497
     C(center, sigma)      = +0.4572
     C(center, slope)      = -0.3544
     C(center, intercept)  = +0.3539
-    C(sigma, sigma_r)     = -0.28082024-03-23 13:56:29.752565 - Results T-6-15 
+    C(sigma, sigma_r)     = -0.28082024-03-23 20:19:29.218165 - Results T-6-15 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4405154097065815
-Optimized frequency standard deviation (fmin)  1.1129848383567103e-05
-Optimized frequency standard error (fmin)      3.51956709044154e-07
-Optimized frequency mean with uncertainties    440515+/-11
-Accuracy of estimated frequency mean / SMC     0.9999594954101276
+Optimized frequency mean (fmin)                0.4405157560824774
+Optimized frequency standard deviation (fmin)  1.2350965817822688e-05
+Optimized frequency standard error (fmin)      3.9057183287203965e-07
+Optimized frequency mean with uncertainties    440516+/-12
+Accuracy of estimated frequency mean / SMC     0.9999602816751674
 ---------------------------------------------  ----------------------
 
-2024-03-23 13:56:30.234563 - LMFIT result report T-6-20 
+2024-03-23 20:19:29.633165 - LMFIT result report T-6-20 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1726,16 +1725,16 @@ Accuracy of estimated frequency mean / SMC     0.9999594954101276
     C(center, intercept)    = +0.3446
     C(sigma, sigma_r)       = -0.2724
     C(amplitude, intercept) = -0.2723
-    C(amplitude, slope)     = +0.26452024-03-23 13:56:32.375565 - Results T-6-20 
----------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.4405142455032703
-Optimized frequency standard deviation (fmin)  5.073727272346523e-06
-Optimized frequency standard error (fmin)      1.6044534407128455e-07
+    C(amplitude, slope)     = +0.26452024-03-23 20:19:31.670162 - Results T-6-20 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.44051424796673505
+Optimized frequency standard deviation (fmin)  5.094429902552698e-06
+Optimized frequency standard error (fmin)      1.611000187213617e-07
 Optimized frequency mean with uncertainties    440514+/-5
-Accuracy of estimated frequency mean / SMC     0.9999806893698151
----------------------------------------------  ----------------------
+Accuracy of estimated frequency mean / SMC     0.9999806949619547
+---------------------------------------------  ---------------------
 
-2024-03-23 13:56:32.868568 - LMFIT result report T-6-25 
+2024-03-23 20:19:32.109162 - LMFIT result report T-6-25 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1769,16 +1768,16 @@ Accuracy of estimated frequency mean / SMC     0.9999806893698151
     C(center, sigma)      = +0.4306
     C(center, slope)      = -0.3329
     C(center, intercept)  = +0.3321
-    C(sigma, sigma_r)     = -0.27542024-03-23 13:56:33.981563 - Results T-6-25 
----------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.44050381095336283
-Optimized frequency standard deviation (fmin)  2.7738130316107183e-05
-Optimized frequency standard error (fmin)      8.771566983346501e-07
-Optimized frequency mean with uncertainties    440504+/-28
-Accuracy of estimated frequency mean / SMC     1.000034194014067
----------------------------------------------  ----------------------
+    C(sigma, sigma_r)     = -0.27542024-03-23 20:19:33.118163 - Results T-6-25 
+---------------------------------------------  ---------------------
+Optimized frequency mean (fmin)                0.44050531368731
+Optimized frequency standard deviation (fmin)  2.585124474604459e-05
+Optimized frequency standard error (fmin)      8.1748813747962e-07
+Optimized frequency mean with uncertainties    440505+/-26
+Accuracy of estimated frequency mean / SMC     1.0000376055290057
+---------------------------------------------  ---------------------
 
-2024-03-23 13:56:34.485564 - LMFIT result report T-6-30 
+2024-03-23 20:19:33.555163 - LMFIT result report T-6-30 
 [[Model]]
     (Model(linear) + Model(split_lorentzian))
 [[Fit Statistics]]
@@ -1814,283 +1813,83 @@ Accuracy of estimated frequency mean / SMC     1.000034194014067
     C(center, intercept)    = +0.2992
     C(amplitude, intercept) = -0.2900
     C(amplitude, slope)     = +0.2822
-    C(sigma, sigma_r)       = -0.26452024-03-23 13:56:35.980566 - Results T-6-30 
+    C(sigma, sigma_r)       = -0.26452024-03-23 20:19:34.822168 - Results T-6-30 
 ---------------------------------------------  ----------------------
-Optimized frequency mean (fmin)                0.44051148920619704
-Optimized frequency standard deviation (fmin)  1.4329235924779398e-05
-Optimized frequency standard error (fmin)      4.531302265221208e-07
-Optimized frequency mean with uncertainties    440511+/-14
-Accuracy of estimated frequency mean / SMC     1.0000311906955859
+Optimized frequency mean (fmin)                0.44051077821043627
+Optimized frequency standard deviation (fmin)  1.6202266597110407e-05
+Optimized frequency standard error (fmin)      5.123606570413459e-07
+Optimized frequency mean with uncertainties    440511+/-16
+Accuracy of estimated frequency mean / SMC     1.0000295766220495
 ---------------------------------------------  ----------------------
-2024-03-23 13:56:38.340065 - Complete dataset - EXPORTED 
-2024-03-23 13:56:38.774691 - Summary - Sensor 1  - Control 
-----------------------  -------------------------
-Parameter f0            0.439118531+/-0.000003592
-Parameter a             (1.3610+/-0.9545)e-05
-Parameter c             0.1496+/-0.2720
-Frequency t = 30 [MHz]  0.439112622+/-0.000005512
-Frequency shift [Hz]    -5.9091231+/-4.1802704
-----------------------  -------------------------
-2024-03-23 13:56:38.774691 - Values 1  - Control 
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
-|--------+---------+----------+--------+--------------+----------------------------------+-------------|
-| C-1-0  | C       |        1 |      0 |     0.481844 |                         0.439119 | 1.91128e-05 |
-| C-1-5  | C       |        1 |      5 |     0.482087 |                         0.439114 | 1.11022e-16 |
-| C-1-10 | C       |        1 |     10 |     0.482528 |                         0.439116 | 1.05898e-05 |
-| C-1-15 | C       |        1 |     15 |     0.48274  |                         0.439116 | 1.07776e-05 |
-| C-1-20 | C       |        1 |     20 |     0.482532 |                         0.439107 | 3.68207e-05 |
-| C-1-25 | C       |        1 |     25 |     0.48249  |                         0.439114 | 1.11022e-16 |
-| C-1-30 | C       |        1 |     30 |     0.482341 |                         0.439114 | 1.11022e-16 |
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-2024-03-23 13:56:38.774691 - Values 1  - Control 
-[[Model]]
-    Model(fit_model)
-[[Fit Statistics]]
-    # fitting method   = leastsq
-    # function evals   = 5
-    # data points      = 7
-    # variables        = 3
-    chi-square         = 5.3217e-11
-    reduced chi-square = 1.3304e-11
-    Akaike info crit   = -173.217923
-    Bayesian info crit = -173.380193
-    R-squared          = 0.34336956
-[[Variables]]
-    f0:  0.43911853 +/- 3.5923e-06 (0.00%) (init = 0.4391185)
-    a:   1.3610e-05 +/- 9.5448e-06 (70.13%) (init = 1.360866e-05)
-    c:   0.14964208 +/- 0.27200080 (181.77%) (init = 0.1495134)
-[[Correlations]] (unreported correlations are < 0.100)
-    C(f0, a) = +0.7639
-    C(f0, c) = +0.3838
-    C(a, c)  = -0.1672
-2024-03-23 13:56:39.184689 - Summary - Sensor 15  - Control 
-----------------------  -----------------------
-Parameter f0            0.43949186+/-0.00001256
-Parameter a             (9.251+/-4.973)e-05
-Parameter c             0.0791+/-0.1117
-Frequency t = 30 [MHz]  0.43945499+/-0.00002668
-Frequency shift [Hz]    -36.868449+/-23.537704
-----------------------  -----------------------
-2024-03-23 13:56:39.184689 - Values 15  - Control 
-+---------+---------+----------+--------+--------------+----------------------------------+-------------+
-|         | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
-|---------+---------+----------+--------+--------------+----------------------------------+-------------|
-| C-15-0  | C       |       15 |      0 |     0.50037  |                         0.439489 | 1.52226e-05 |
-| C-15-5  | C       |       15 |      5 |     0.501249 |                         0.439484 | 1.17686e-05 |
-| C-15-10 | C       |       15 |     10 |     0.501228 |                         0.439478 | 2.40871e-05 |
-| C-15-15 | C       |       15 |     15 |     0.501276 |                         0.439444 | 3.28862e-05 |
-| C-15-20 | C       |       15 |     20 |     0.501199 |                         0.439469 | 3.39441e-05 |
-| C-15-25 | C       |       15 |     25 |     0.500922 |                         0.43945  | 4.23148e-05 |
-| C-15-30 | C       |       15 |     30 |     0.501093 |                         0.439461 | 3.88932e-05 |
-+---------+---------+----------+--------+--------------+----------------------------------+-------------+
-2024-03-23 13:56:39.184689 - Values 15  - Control 
-[[Model]]
-    Model(fit_model)
-[[Fit Statistics]]
-    # fitting method   = leastsq
-    # function evals   = 5
-    # data points      = 7
-    # variables        = 3
-    chi-square         = 6.9390e-10
-    reduced chi-square = 1.7348e-10
-    Akaike info crit   = -155.242208
-    Bayesian info crit = -155.404478
-    R-squared          = 0.60621276
-[[Variables]]
-    f0:  0.43949186 +/- 1.2557e-05 (0.00%) (init = 0.4394919)
-    a:   9.2513e-05 +/- 4.9734e-05 (53.76%) (init = 9.251347e-05)
-    c:   0.07909191 +/- 0.11165061 (141.17%) (init = 0.07910077)
-[[Correlations]] (unreported correlations are < 0.100)
-    C(a, c)  = -0.6619
-    C(f0, c) = +0.5000
-    C(f0, a) = +0.2461
-2024-03-23 13:56:39.594688 - Summary - Sensor 2  - Control 
-----------------------  -----------------------
-Parameter f0            0.44068897+/-0.00001026
-Parameter a             0.0002304+/-0.0001740
-Parameter c             0.03539+/-0.04588
-Frequency t = 30 [MHz]  0.44062255+/-0.00007040
-Frequency shift [Hz]    -66.420690+/-69.653662
-----------------------  -----------------------
-2024-03-23 13:56:39.594688 - Values 2  - Control 
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
-|--------+---------+----------+--------+--------------+----------------------------------+-------------|
-| C-2-0  | C       |        2 |      0 |     0.522322 |                         0.440688 | 4.21827e-05 |
-| C-2-5  | C       |        2 |      5 |     0.522122 |                         0.440675 | 3.41477e-05 |
-| C-2-10 | C       |        2 |     10 |     0.52227  |                         0.440661 | 4.3888e-05  |
-| C-2-15 | C       |        2 |     15 |     0.522861 |                         0.440644 | 5.27834e-05 |
-| C-2-20 | C       |        2 |     20 |     0.523059 |                         0.440626 | 3.3862e-05  |
-| C-2-25 | C       |        2 |     25 |     0.522923 |                         0.440647 | 4.312e-05   |
-| C-2-30 | C       |        2 |     30 |     0.523481 |                         0.440616 | 4.81624e-05 |
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-2024-03-23 13:56:39.594688 - Values 2  - Control 
-[[Model]]
-    Model(fit_model)
-[[Fit Statistics]]
-    # fitting method   = leastsq
-    # function evals   = 5
-    # data points      = 7
-    # variables        = 3
-    chi-square         = 5.0193e-10
-    reduced chi-square = 1.2548e-10
-    Akaike info crit   = -157.509326
-    Bayesian info crit = -157.671595
-    R-squared          = 0.87266484
-[[Variables]]
-    f0:  0.44068897 +/- 1.0258e-05 (0.00%) (init = 0.440689)
-    a:   2.3039e-04 +/- 1.7399e-04 (75.52%) (init = 0.0002303893)
-    c:   0.03539486 +/- 0.04588169 (129.63%) (init = 0.03539654)
-[[Correlations]] (unreported correlations are < 0.100)
-    C(a, c)  = -0.9675
-    C(f0, c) = +0.5733
-    C(f0, a) = -0.3756
-2024-03-23 13:56:39.996689 - Summary - Sensor 4  - Test 
-----------------------  -----------------------
-Parameter f0            0.44021569+/-0.00003481
-Parameter a             0.001379+/-0.004344
-Parameter c             0.01332+/-0.05147
-Frequency t = 30 [MHz]  0.4400157+/-0.0008907
-Frequency shift [Hz]    -200.00981+/-889.99826
-----------------------  -----------------------
-2024-03-23 13:56:39.997688 - Values 4  - Test 
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
-|--------+---------+----------+--------+--------------+----------------------------------+-------------|
-| T-4-0  | T       |        4 |      0 |     0.48342  |                         0.440249 | 4.25269e-05 |
-| T-4-5  | T       |        4 |      5 |     0.485309 |                         0.440123 | 2.62968e-05 |
-| T-4-10 | T       |        4 |     10 |     0.485358 |                         0.440131 | 3.43691e-05 |
-| T-4-15 | T       |        4 |     15 |     0.48572  |                         0.440114 | 5.55112e-17 |
-| T-4-20 | T       |        4 |     20 |     0.485753 |                         0.440115 | 8.97941e-06 |
-| T-4-25 | T       |        4 |     25 |     0.486816 |                         0.440038 | 4.27266e-05 |
-| T-4-30 | T       |        4 |     30 |     0.486615 |                         0.44     | 3.8902e-06  |
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-2024-03-23 13:56:39.997688 - Values 4  - Test 
-[[Model]]
-    Model(fit_model)
-[[Fit Statistics]]
-    # fitting method   = leastsq
-    # function evals   = 5
-    # data points      = 7
-    # variables        = 3
-    chi-square         = 6.1152e-09
-    reduced chi-square = 1.5288e-09
-    Akaike info crit   = -140.008782
-    Bayesian info crit = -140.171052
-    R-squared          = 0.83579282
-[[Variables]]
-    f0:  0.44021569 +/- 3.4811e-05 (0.01%) (init = 0.4402157)
-    a:   0.00137906 +/- 0.00434407 (315.00%) (init = 0.001378682)
-    c:   0.01332236 +/- 0.05147388 (386.37%) (init = 0.01332679)
-[[Correlations]] (unreported correlations are < 0.100)
-    C(a, c)  = -0.9975
-    C(f0, c) = +0.6068
-    C(f0, a) = -0.5581
-2024-03-23 13:56:40.723689 - Summary - Sensor 5  - Test 
-----------------------  -----------------------
-Parameter f0            0.43983811+/-0.00002383
-Parameter a             (0.000+/-9.975)e+05
-Parameter c             0.00000+/-0.07910
-Frequency t = 30 [MHz]  0.44+/-13.66
-Frequency shift [Hz]    -90+/-13657105
-----------------------  -----------------------
-2024-03-23 13:56:40.723689 - Values 5  - Test 
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
-|--------+---------+----------+--------+--------------+----------------------------------+-------------|
-| T-5-0  | T       |        5 |      0 |     0.492474 |                         0.439832 | 4.14683e-05 |
-| T-5-5  | T       |        5 |      5 |     0.492442 |                         0.43983  | 4.09864e-05 |
-| T-5-10 | T       |        5 |     10 |     0.492973 |                         0.439797 | 1.67375e-05 |
-| T-5-15 | T       |        5 |     15 |     0.492967 |                         0.439787 | 3.08025e-05 |
-| T-5-20 | T       |        5 |     20 |     0.492892 |                         0.439796 | 1.88146e-05 |
-| T-5-25 | T       |        5 |     25 |     0.492927 |                         0.439798 | 1.30654e-05 |
-| T-5-30 | T       |        5 |     30 |     0.493196 |                         0.439714 | 2.71635e-06 |
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-2024-03-23 13:56:40.723689 - Values 5  - Test 
-[[Model]]
-    Model(fit_model)
-[[Fit Statistics]]
-    # fitting method   = leastsq
-    # function evals   = 1694
-    # data points      = 7
-    # variables        = 3
-    chi-square         = 2.9323e-09
-    reduced chi-square = 7.3308e-10
-    Akaike info crit   = -145.153697
-    Bayesian info crit = -145.315966
-    R-squared          = 0.68029727
-[[Variables]]
-    f0:  0.43983811 +/- 2.3835e-05 (0.01%) (init = 0.4398381)
-    a:   9.29473946 +/- 997514.213 (10732029.85%) (init = 0.3109929)
-    c:   7.3029e-07 +/- 0.07910451 (10831884.16%) (init = 2.183209e-05)
-[[Correlations]] (unreported correlations are < 0.100)
-    C(a, c)  = -1.0000
-    C(f0, c) = +0.6332
-    C(f0, a) = -0.6332
-2024-03-23 13:56:41.127686 - Summary - Sensor 6  - Test 
-----------------------  -----------------------
-Parameter f0            0.44062593+/-0.00001481
-Parameter a             0.00033894+/-0.00008442
-Parameter c             0.06207+/-0.03658
-Frequency t = 30 [MHz]  0.44049979+/-0.00004306
-Frequency shift [Hz]    -126.140762+/-40.438947
-----------------------  -----------------------
-2024-03-23 13:56:41.127686 - Values 6  - Test 
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-|        | Group   |   Sensor |   Time |   Signal fit |   Minimized frequency mean [MHz] |     Std Dev |
-|--------+---------+----------+--------+--------------+----------------------------------+-------------|
-| T-6-0  | T       |        6 |      0 |     0.494909 |                         0.440618 | 3.50625e-05 |
-| T-6-5  | T       |        6 |      5 |     0.495403 |                         0.440598 | 1.1458e-05  |
-| T-6-10 | T       |        6 |     10 |     0.495628 |                         0.440571 | 4.08157e-05 |
-| T-6-15 | T       |        6 |     15 |     0.495776 |                         0.440515 | 1.11298e-05 |
-| T-6-20 | T       |        6 |     20 |     0.495874 |                         0.440514 | 5.07373e-06 |
-| T-6-25 | T       |        6 |     25 |     0.496261 |                         0.440504 | 2.77381e-05 |
-| T-6-30 | T       |        6 |     30 |     0.496338 |                         0.440511 | 1.43292e-05 |
-+--------+---------+----------+--------+--------------+----------------------------------+-------------+
-2024-03-23 13:56:41.127686 - Values 6  - Test 
-[[Model]]
-    Model(fit_model)
-[[Fit Statistics]]
-    # fitting method   = leastsq
-    # function evals   = 5
-    # data points      = 7
-    # variables        = 3
-    chi-square         = 9.9087e-10
-    reduced chi-square = 2.4772e-10
-    Akaike info crit   = -152.748419
-    Bayesian info crit = -152.910688
-    R-squared          = 0.92634274
-[[Variables]]
-    f0:  0.44062593 +/- 1.4805e-05 (0.00%) (init = 0.4406259)
-    a:   3.3894e-04 +/- 8.4421e-05 (24.91%) (init = 0.0003389326)
-    c:   0.06206589 +/- 0.03657509 (58.93%) (init = 0.06206819)
-[[Correlations]] (unreported correlations are < 0.100)
-    C(a, c)  = -0.8244
-    C(f0, c) = +0.5291
+2024-03-23 20:20:03.027668 - Complete dataset - EXPORTED 
 
- 2024-03-23 13:56:41.139212 - Complete shifts list - EXPORTED 
+ 2024-03-23 20:20:05.447649 - Complete shifts list - EXPORTED 
 
- 2024-03-23 13:56:42.086078 - Bootstrapped list - OK 
+ 2024-03-23 20:20:06.330277 - Bootstrapped list - OK 
 
- 2024-03-23 13:56:46.734958 - Metrics list - EXPORTED 
-------------  ----------
+ 2024-03-23 20:20:07.402957 - Metrics list - EXPORTED 
+------------  --------------------
+Classifier    Logistics Regression
+Accuracy avg  1.0
+------------  --------------------
+ 2024-03-23 20:20:07.499959 - Metrics list - EXPORTED 
+------------  -------------
+Classifier    Decision Tree
+Accuracy avg  1.0
+------------  -------------
+ 2024-03-23 20:20:08.194960 - Metrics list - EXPORTED 
+------------  -------------
+Classifier    Random Forest
+Accuracy avg  1.0
+------------  -------------
+ 2024-03-23 20:20:08.704959 - Metrics list - EXPORTED 
+------------  --------
+Classifier    AdaBoost
+Accuracy avg  1.0
+------------  --------
+ 2024-03-23 20:20:09.295960 - Metrics list - EXPORTED 
+------------  -----------------
+Classifier    Gradient Boosting
+Accuracy avg  1.0
+------------  -----------------
+ 2024-03-23 20:20:09.384958 - Metrics list - EXPORTED 
+------------  ------------------
+Classifier    Naive Bayes
+Accuracy avg  0.7394999999999999
+------------  ------------------
+ 2024-03-23 20:20:09.546959 - Metrics list - EXPORTED 
+------------  -------------------
+Classifier    K-Nearest Neighbors
+Accuracy avg  1.0
+------------  -------------------
+ 2024-03-23 20:20:09.670960 - Metrics list - EXPORTED 
+------------  ---------
+Classifier    SVM (SVC)
+Accuracy avg  1.0
+------------  ---------
+ 2024-03-23 20:20:10.127958 - Metrics list - EXPORTED 
+------------  ------------------
+Classifier    SVM (RBF)
+Accuracy avg  0.6605000000000001
+------------  ------------------
+ 2024-03-23 20:20:10.400959 - Metrics list - EXPORTED 
+------------  ------------------
 Classifier    SVM (Poly)
-Accuracy avg  0.6725
-------------  ----------2024-03-23 13:56:46.759327 - All metrics 
+Accuracy avg  0.6605000000000001
+------------  ------------------2024-03-23 20:20:10.419558 - All metrics 
 +----+----------------------+-------------------+------------------+------------+-------------+----------+------------+-----------+
 |    | Algorithm            |   CV Avg Accuracy |   CV Acc std dev |   Accuracy |   Precision |   Recall |   F1-Score |   Support |
 |----+----------------------+-------------------+------------------+------------+-------------+----------+------------+-----------|
-|  0 | Logistics Regression |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
-|  1 | Decision Tree        |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
-|  2 | Random Forest        |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
-|  3 | AdaBoost             |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
-|  4 | Gradient Boosting    |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
-|  6 | K-Nearest Neighbors  |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
-|  7 | SVM (SVC)            |            1      |       0          |   1        |    1        | 1        |   1        |       300 |
-|  5 | Naive Bayes          |            0.7585 |       0.00717635 |   0.806667 |    0.860063 | 0.806667 |   0.798597 |       300 |
-|  8 | SVM (RBF)            |            0.6725 |       0.0157321  |   1        |    1        | 1        |   1        |       300 |
-|  9 | SVM (Poly)           |            0.6725 |       0.0157321  |   1        |    1        | 1        |   1        |       300 |
+|  0 | Logistics Regression |            1      |        0         |   1        |    1        | 1        |   1        |       300 |
+|  1 | Decision Tree        |            1      |        0         |   1        |    1        | 1        |   1        |       300 |
+|  2 | Random Forest        |            1      |        0         |   1        |    1        | 1        |   1        |       300 |
+|  3 | AdaBoost             |            1      |        0         |   1        |    1        | 1        |   1        |       300 |
+|  4 | Gradient Boosting    |            1      |        0         |   1        |    1        | 1        |   1        |       300 |
+|  6 | K-Nearest Neighbors  |            1      |        0         |   1        |    1        | 1        |   1        |       300 |
+|  7 | SVM (SVC)            |            1      |        0         |   1        |    1        | 1        |   1        |       300 |
+|  5 | Naive Bayes          |            0.7395 |        0.018735  |   0.796667 |    0.855173 | 0.796667 |   0.787584 |       300 |
+|  8 | SVM (RBF)            |            0.6605 |        0.0165378 |   1        |    1        | 1        |   1        |       300 |
+|  9 | SVM (Poly)           |            0.6605 |        0.0165378 |   1        |    1        | 1        |   1        |       300 |
 +----+----------------------+-------------------+------------------+------------+-------------+----------+------------+-----------+
 
- 2024-03-23 13:56:46.769201 - Model file exported. Analysis is complete!
+2024-03-23 20:20:10.426445 - Model file exported. Analysis is complete!
