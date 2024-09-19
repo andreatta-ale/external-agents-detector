@@ -1,44 +1,77 @@
-# External agent detector
 
-This project uses some machine learning algorithms to point the presence or absence of an external agent into de controlled environment.
-To do so, is necessary collect raw data from a network analizer, manipulate and transform it to make it readable and understandable to the classifiers.
-You can have a preview of the script by accessing this *[file](analysis_script.md)*. You'll be able to see analysis outputs and configurations, so that you can know what to expect from the code.
+# Analix: An external agent detector
 
-## Getting Started
+This project uses machine learning algorithms to detect the presence or absence of external agents in a controlled environment. It processes raw data from a network analyzer, transforms it, and uses classifiers to detect potential intrusions.
 
-First of all, create a virtual environment so ensure only necessary packages and file will be running.
-You can run the command `python -m venv path/to/project`. After configuration is done, seek for file `activate` in **Scripts** folder and run it with `project\Scripts\activate`.
+## Table of Contents
 
-Your data must be in a folder, classified in **C** and **T** (control and test).
-Then, when the code is running, you shoud select the folder where data is in (observe that the window could be behind your active window, in case it does not pop up when you run the script).
-This will create a **res** (stands for *results*) folder at data directory where outputs and logs will be saved.
-From now on, the script will run by itself, and you can follow up results as them pop up.
+- [Analix: An external agent detector](#analix-an-external-agent-detector)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Project Structure](#project-structure)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
+  - [Contribution](#contribution)
+  - [Authors](#authors)
+  - [License](#license)
 
-### Prerequisites
+## Overview
 
-Run the command `pip install -r requirements.txt` to make sure all packages needed will be installed.
+The project aims to identify external agents in networks through data analysis and machine learning. The tool processes input data and uses classifiers to determine if external agents are present.
 
+## Project Structure
 
-## Running the Tests
+- `analysis_script.md`: Preview of the script and its outputs.
+- `res/`: Results folder where logs and model outputs are saved.
+- `requirements.txt`: List of project dependencies.
 
-After you run the script, a model-like file named `model_classifier.pkl` will be created at **res** folder. 
-You can invoke it to test or use it with new data to verify presence of an external agent.
-One way you can use to test is is using the `I_am_here_to_test_the_model.ipynb` script to invoke the model and pass the data in the **results_to_submit.csv**. The output shoud be `The prediction is: T`.
+## Installation
 
-## Deployment
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/andreatta-ale/external-agents-detector.git
+   ```
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+3. Activate the virtual environment:
+   - On Windows: `venv\Scripts\activate`
+   - On Linux/Mac: `source venv/bin/activate`
+4. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Still to come. An executable python file is under construction.
+## Usage
 
+1. Organize your data into folders named **C** (control) and **T** (test).
+2. Run the main script and select the data folder when prompted.
+3. The results will be saved in the `res/` folder.
+
+## Testing
+
+After execution, a model file (`model_classifier.pkl`) will be generated in the `res/` folder. Use the `I_am_here_to_test_the_model.ipynb` script to test the model with new data.
+
+## Contribution
+
+Contributions are welcome! To contribute, follow these steps:
+1. Fork the project.
+2. Create a new branch (`git checkout -b feature/feature_name`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/feature_name`).
+5. Open a Pull Request.
 
 ## Authors
 
-* **Alessandro Andreatta, BEng** - *master candidate*
-* **Janete E. Zorzi, PhD** - *academic advisor*
-* **Cesar Aguzzoli, PhD** - *academic co-advisor*
-* **Cláudio Antônio Perottoni, PhD** - *contributor*
-* **Luiza Felippi de Lima, MEng** - *contributor*
-
+- **Alessandro Andreatta, BEng** - *Master's Candidate*
+- **Janete E. Zorzi, PhD** - *Academic Advisor*
+- **Cesar Aguzzoli, PhD** - *Academic Co-Advisor*
+- **Cláudio Antônio Perottoni, PhD** - *Contributor*
+- **Luiza Felippi de Lima, MEng** - *Contributor*
 
 ## License
 
-This project is licensed under GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
+This project is licensed under the GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007.
+See the full license text [here](https://www.gnu.org/licenses/gpl-3.0.html).
